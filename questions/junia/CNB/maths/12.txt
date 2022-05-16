@@ -1,0 +1,7 @@
+2
+a=bq+r, q est :
+1 : Le dividende
+2 : Le diviseur
+3 : Le reste
+4 : Le quotient
+4

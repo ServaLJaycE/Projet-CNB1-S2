@@ -1,0 +1,8 @@
+2
+Quelle est la capitale du Canada ?
+1 : Montréal
+2 : Ottawa
+3 : Québec
+4 : Toronto
+2
+Ottawa est aujourd'hui la capitale et la quatrième ville en importance au Canada.

@@ -1,0 +1,5 @@
+1
+Une application linéaire de Rp dans Rp est un endomorphisme 
+1 : Vrai
+2 : Faux
+1

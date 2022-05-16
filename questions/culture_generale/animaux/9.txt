@@ -1,0 +1,6 @@
+1
+Les chèvres et les autres ruminants ne peuvent pas digérer leur nourriture d’un coup.
+1 : Vrai 
+2 : Faux
+1
+Ils disposent de plusieurs estomacs, et peuvent ramener les aliments de l’estomac vers la bouche pour les broyer plus finement : c’est ce qu’on appelle la rumination. 

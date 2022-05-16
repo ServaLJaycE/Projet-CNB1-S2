@@ -1,0 +1,8 @@
+2
+Quelle est la taille de la langue d’une girafe ?
+1 : 37 cm
+2 : 45 cm
+3 : 50 cm
+4 : 60 cm
+3
+Sa grande taille lui permet d'attraper facilement les feuilles des arbres dont elle se nourrit. Elle est également très utile pour se nettoyer les yeux, les narines et les oreilles !

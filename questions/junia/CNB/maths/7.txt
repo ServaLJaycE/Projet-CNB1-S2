@@ -1,0 +1,7 @@
+2
+Une matrice A est symétrique si :
+1 : La transposée de la matrice A est égale à -A
+2 : La matrice A est triangulaire inférieure
+3 : La transposée de la matrice A est égale à A
+4 : La matrice A est triangulaire supérieure
+3

@@ -1,0 +1,8 @@
+2
+Qu'est-ce que le saké ?
+1 : Une boisson énergisante à base de thé au jasmin
+2 : Un alcool de riz
+3 : Un alcool de litchi
+4 : Une prise de judo 
+2
+C'est une boisson alcoolisée japonaise à base de riz. Il s'agit d'un alcool de riz produit par fermentation titrant de 14 à 17°.

@@ -1,0 +1,6 @@
+1
+Bamako est la capitale du Mali.
+1 : Vrai
+2 : Faux
+1
+Bamako est la capitale et la plus grande ville du Mali.

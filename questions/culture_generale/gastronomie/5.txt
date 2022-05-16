@@ -1,0 +1,8 @@
+2
+Dans quelle ville trouve-t-on le Kouglof ? 
+1 : Arras
+2 : Bordeaux
+3 : Strasbourg
+4 : Toulouse
+3
+Cette brioche à la forme originale et unique tire son nom d’Alsace : le « kougelhopf », signifiant turban.

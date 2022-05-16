@@ -1,0 +1,6 @@
+1
+La pétanque est un sport olympique 
+1 : Vrai
+2 : Faux
+2
+La pétanque n'est pas considéré comme une discipline officielle par le Comité international olympique.

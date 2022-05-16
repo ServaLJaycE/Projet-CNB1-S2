@@ -1,0 +1,8 @@
+2
+Comment s’appelle le stade de vie libre des cnidaires ?
+1 : Aquifère
+2 : Polype
+3 : Hydrique
+4 : Méduse
+4
+Les cnidaires ont deux morphologies générales : fixée (polype) ou libre (méduse)

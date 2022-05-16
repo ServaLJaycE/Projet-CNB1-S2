@@ -1,0 +1,8 @@
+2
+Qu’est-ce que la daube provençale ?
+1 : Un plat mijoté de boeuf
+2 : Un alcool
+3 : Une pâtisserie à  la lavande
+4 : Une ratatouille 
+1
+La daube provençale est une spécialité traditionnelle de la cuisine provençale, à base de viande marinée dans du vin rouge ou du vin blanc du vignoble de Provence, traditionnellement cuite à l'étouffée braisée au coin du feu, dans une daubière en terre cuite provençale.

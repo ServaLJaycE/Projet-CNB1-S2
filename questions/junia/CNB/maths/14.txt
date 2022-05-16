@@ -1,0 +1,5 @@
+1
+La primitive de 1/x est ln(x) 
+1 : Vrai
+2 : Faux
+1

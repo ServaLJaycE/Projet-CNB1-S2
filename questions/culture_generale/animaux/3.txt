@@ -1,0 +1,5 @@
+1
+La température d’incubation des œufs influence la détermination du sexe des reptiles à naître 
+1 : Vrai
+2 : Faux
+1

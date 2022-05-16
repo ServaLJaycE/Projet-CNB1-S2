@@ -1,0 +1,8 @@
+2
+D’où vient le Kouign-amann ?
+1 : De Normandie
+2 : De Bretagne
+3 : De Lyon
+4 : De Lille 
+2
+Né en 1860 à Douarnenez, le Kouign Amann est un vrai breton. Son nom signifie littéralement Gâteau au Beurre. C'est Yves René Scordia qui mit au point la savoureuse recette du Kouign Amann.
