@@ -1,0 +1,5 @@
+1
+Une bobine a pour unité le henry 
+1 : Vrai
+2 : Faux
+1

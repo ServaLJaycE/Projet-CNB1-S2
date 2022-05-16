@@ -1,0 +1,7 @@
+2
+Un condensateur a pour unité :
+1 : Le farad
+2 : Le henry 
+3 : L'Ohm
+4 : Les secondes
+1

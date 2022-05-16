@@ -1,0 +1,7 @@
+2
+Lequel de ses mots n’est pas un organe de la plante ?
+1 : Les feuilles
+2 : Les tiges
+3 : La terre
+4 : Les racines 
+3

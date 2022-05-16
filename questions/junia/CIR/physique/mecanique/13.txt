@@ -1,0 +1,6 @@
+1
+Deux forces ne sont pas conservatrices si leurs dérivées croisées sont égales
+1 : Vrai
+2 : Faux
+2
+Faux si les forces ne sont pas conservatrices alors les dérivées croisées sont différentes

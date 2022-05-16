@@ -1,0 +1,6 @@
+1
+Le zéro absolu est égal à 0°F 
+1 : Vrai
+2 : Faux
+2
+Faux, le zéro absolu est égal à 0K

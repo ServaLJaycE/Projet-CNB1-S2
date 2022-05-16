@@ -1,0 +1,7 @@
+2	
+Une trajectoire est rectiligne si :
+1 : C’est une courbe
+2 : Elle est égale à y = ax+b
+3 : C’est un cercle
+4 : C’est une parabole
+2

@@ -1,0 +1,7 @@
+2
+Le gain en décibel est égal à :
+1 : 20G
+2 : 20 + log(G)
+3 : -20log(G)
+4 : 20log(G)
+4

@@ -1,0 +1,7 @@
+2
+L’impédance d’une bobine est :
+1 : 1/jLω
+2 : jLω
+3 : 2jLω
+4 : 1 + jLω
+2

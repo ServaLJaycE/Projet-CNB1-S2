@@ -1,0 +1,7 @@
+2
+La tension se mesure en 
+1 : Ampère
+2 : Volt
+3 : Joule
+4 : Seconde
+2

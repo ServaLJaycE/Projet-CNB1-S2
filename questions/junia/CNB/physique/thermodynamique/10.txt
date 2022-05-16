@@ -1,0 +1,7 @@
+2
+Un diagramme de la pression en fonction du volume est un :
+1 : Diagramme de Mayer
+2 : Diagramme de Clapeyron
+3 : Diagramme de Joule
+4 : Diagramme de Volt
+2

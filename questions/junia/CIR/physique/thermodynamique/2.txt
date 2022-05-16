@@ -1,0 +1,7 @@
+2
+Lequel n’est pas un mode de transfert thermique ?
+1 : radiation
+2 : annexion
+3 : conduction
+4 : convection
+2

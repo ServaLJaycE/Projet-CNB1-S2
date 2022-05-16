@@ -1,0 +1,7 @@
+2
+La loi des mailles nous dit que :
+1 : La somme des tensions est égale à 0 
+2 : Le courant entrant est égale ou courant sortant
+3 : Le quotient des valeurs des résistances est égal à celui des valeurs des bobines
+4 : Le produit des intensités du courant est égal à 0
+1

@@ -1,0 +1,5 @@
+1
+L’enthalpie est H=U+PV
+1 : Vrai
+2 : Faux
+1

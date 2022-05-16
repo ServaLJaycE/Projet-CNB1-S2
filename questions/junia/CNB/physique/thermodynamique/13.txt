@@ -1,0 +1,7 @@
+2
+La loi des gaz parfaits est :
+1 : PV = N
+2 : H=U+PV
+3 : PV = nRT
+4 : PV + T = R
+3

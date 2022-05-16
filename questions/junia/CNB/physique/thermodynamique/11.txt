@@ -1,0 +1,7 @@
+2
+Une transformation à volume constant est une transformation
+1 : Isochore
+2 : Adiabatique
+3 : Isobare
+4 : Isotherme
+1

@@ -1,0 +1,5 @@
+1
+Le gain est le module de la fonction de transfert 
+1 : Vrai
+2 : Faux
+1

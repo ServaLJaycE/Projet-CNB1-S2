@@ -1,0 +1,7 @@
+2
+Lequel de ces types d’oscillations n’existe pas ?
+1 : Harmoniques
+2 : Elancées
+3 : Forcées
+4 : Amorties
+2

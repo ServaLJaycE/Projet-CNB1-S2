@@ -1,0 +1,7 @@
+2
+Les akinètes sont :
+1 : Des cellules dormantes
+2 : Des cellules reproductrices
+3 : Des cellules nutritionnelles
+4 : Des cellulles sans fonction précise
+1
