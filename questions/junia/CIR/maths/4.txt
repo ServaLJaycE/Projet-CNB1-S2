@@ -1,0 +1,6 @@
+1
+La méthode du pivot de Gauss permet de résoudre un système linéaire 
+1 : Vrai
+2 : Faux
+1
+La méthode du pivot de Gauss est une des 3 méthodes qui permettent de résoudre un système linéaire 
