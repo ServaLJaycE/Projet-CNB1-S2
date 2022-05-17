@@ -1,12 +1,90 @@
-p{
-    color:navy;
-    font-style: initial;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+/*-----------Entête-----------*/
+div#entête{
+    position: relative;
+    width: 100%;
+    background-color: aliceblue;
 }
-body {
-    background-color: blueviolet;
+div#entête ul{ 
+    list-style-type: none;
+}
+div#entête li{
+    margin: 0%;
+    text-align: center
 }
 
-h1 {
-    color: cyan;
+div#entête li#logo a{
+    display: block;
+    padding: 5px;
+    text-decoration: none;
+    color: black;
+}
+
+div#entête li#logo{
+    position: absolute;
+    left: 5%;
+    top: 2%;
+}
+
+
+div#entête li#quisen{
+    display: block;
+    position: absolute;
+    left: 45%;
+    top: 2%;
+    width: 10%;
+}
+
+
+
+div#entête li#classement{
+    display: block;
+    position: absolute;
+    right: 5%;
+    top: 2%;
+}
+
+/*----------------Menu-------------------*/
+
+body {
+    background-color:lightskyblue;
+}
+
+ul#Menu{
+    list-style-type: none;
+}
+
+li.boutons{
+    display: block;
+    float: left;
+    text-align: center;
+    margin-left: 15%;
+    margin-right: 15%;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    background-color:midnightblue;
+    padding: 10px;
+    text-decoration: none;
+}
+
+li.boutons a{
+    text-decoration: none;
+    color: white;
+}
+
+/*-----------Culture G----------*/
+
+table.menu tr{
+    border-spacing: 10px;
+    border: solid black;
+
+}
+
+table.menu td{
+    border-spacing: 10px;
+    border: solid black;
+    width: 20%;
+}
+
+table.menu td li{
+    align-self: center;
+    width: 30%;
 }
