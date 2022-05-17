@@ -1,6 +1,10 @@
 p{
-    color:blue
+    color:navy;
 }
 body {
     background-color: blueviolet;
+}
+
+h1 {
+    color: cyan;
 }
