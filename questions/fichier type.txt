@@ -30,3 +30,13 @@ n.jpg -> image liée
 4 : proposition 4
 2 -> bonne réponse
 
+-------------------------
+
+4 -> ID		
+"Question"
+1 : proposition 1
+2 : proposition 2
+3 : proposition 3
+4 : proposition 4
+3, 4 -> bonne réponse
+"explication"
