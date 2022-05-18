@@ -53,16 +53,17 @@ ul#Menu{
     list-style-type: none;
 }
 
-li.boutons{
+ul#Menu li a{
     display: block;
-    float: left;
     text-align: center;
-    margin-left: 15%;
-    margin-right: 15%;
+    float: left;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
     background-color:midnightblue;
-    padding: 10px;
-    text-decoration: none;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 15px;
 }
 
 li.boutons a{
@@ -70,21 +71,48 @@ li.boutons a{
     color: white;
 }
 
+ul#Menu li {
+    position: absolute;
+    top: 30%;
+}
+ul#Menu li#Isen {
+    left: 20%;
+}
+
+ul#Menu li#Culture{
+    right: 20%;
+}
 /*-----------Culture G----------*/
 
-table.menu tr{
-    border-spacing: 10px;
-    border: solid black;
-
-}
-
 table.menu td{
-    border-spacing: 10px;
-    border: solid black;
-    width: 20%;
+    width: 100%;
+    background-color: midnightblue;
+    text-align: center;
+    border: solid white 1px;
+    border-radius: 15px;
+    table-layout: fixed;
+
 }
 
-table.menu td li{
-    align-self: center;
-    width: 30%;
+table.menu td a{
+    display: block;
+    text-decoration: none;
+    color: white;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    padding-left: 30px;
+    padding-right: 30px;
 }
+
+table.menu{
+    border-spacing: 30px;
+    position: absolute;
+    top: 25%;
+    left: 25%;
+    right: 25%;
+}
+
+
+
+
+
