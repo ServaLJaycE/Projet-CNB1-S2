@@ -1,0 +1,8 @@
+4
+Lesquelles de ces femmes ont été reine d’Egypte ? 
+1 : Cléopâtre VII
+2 : Theani
+3 : Hereni
+4 : Néfertiti
+1, 4
+Cléopâtre VII et Néfertiti ont toutes les deux étaient reine d'Egypte, les deux autres n'existent pas !

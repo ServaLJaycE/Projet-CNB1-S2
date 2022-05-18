@@ -1,0 +1,8 @@
+4
+Lesquels de ces châteaux se situent à Paris ? 
+1 : Château de Bernicourt
+2 : Château de Rambouillet
+3 : Château de Vincennes
+4 : Château du Vert-Bois
+2, 3
+Le château de Rambouillet et le château de Vincennes se  situent à Paris, leux deux autres se situent dans le nord de la France
