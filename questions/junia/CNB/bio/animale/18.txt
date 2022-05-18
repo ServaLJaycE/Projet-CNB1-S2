@@ -1,0 +1,8 @@
+3
+s1.jpg
+Voici un schéma d’un bactériophage T4, la case 1 représente :
+1 : Un spicule
+2 : L'enveloppe protéique
+3 : Le matériel génétique
+4 : La seringue d'injection 
+1

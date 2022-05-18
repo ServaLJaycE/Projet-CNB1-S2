@@ -1,0 +1,7 @@
+2
+La fonction de transfert est égale à :
+1 : La tension de sortie moins la tension d'entrée
+2 : La tension de sortie sur la tension d’entrée
+3 : La tension d’entrée sur tension de sortie
+4 : La tension d’entrée moins tension de sortie
+2

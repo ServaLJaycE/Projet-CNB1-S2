@@ -1,0 +1,7 @@
+2
+L’accélération est :
+1 : La dérivé première de la position 
+2 : La dérivé seconde de la position 
+3 : La dérivé seconde de la vitesse  
+4 : La dérivé troisième de la vitesse
+2

@@ -1,0 +1,8 @@
+2
+Combien y’a-t-il d’attaques de requins non provoquées par an ? 
+1 : entre 0 et 50
+2 : entre 50 et 100
+3 : entre 100 et 150
+4 : entre 150 et 200
+2
+Chaque année, il y a entre 50 et 100 attaques non provoquées de requins contre des humains. Entre 5 et 10 personnes meurent à la suite de ces attaques 

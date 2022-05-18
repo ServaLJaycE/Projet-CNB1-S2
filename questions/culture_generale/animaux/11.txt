@@ -1,0 +1,6 @@
+1
+Le dromadaire a deux bosses.
+1 : Vrai
+2 : Faux
+2
+Le dromadaire a une seule bosse, c'est le chameau qui en a deux !

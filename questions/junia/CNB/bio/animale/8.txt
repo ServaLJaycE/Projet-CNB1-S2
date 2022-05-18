@@ -1,0 +1,8 @@
+2
+Comment est le nom de la plaque aquifère chez les Astérides ?
+1 : La radula
+2 : L'amphiblastula
+3 : L'holométabole
+4 : La madréporite 
+4
+La madréporite est uen plaque aquifère qui permet l’entrée et la sortie d’eau

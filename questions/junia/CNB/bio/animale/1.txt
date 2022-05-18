@@ -1,0 +1,8 @@
+2
+Quel est le stade de vie fixée d’un cnidaire ?
+1 : Amibe
+2 : Polype
+3 : Kyste
+4 : Lacunaire
+2
+Les cnidaires ont deux morphologies générales : fixée (polype) ou libre

@@ -1,0 +1,7 @@
+2
+La fréquence F est égale à :
+1 : 1/2*T
+2 : 1 + T 
+3 : 1/T
+4 : T - 2
+3

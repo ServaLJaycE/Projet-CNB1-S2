@@ -1,0 +1,8 @@
+2
+D’où vient le nom du Paris-Brest ? 
+1 : De sa forme en roue de vélo
+2 : Du voyage de Paris à Brest de  son créateur
+3 : Du mélange de saveurs de Paris et de Brest 
+4 : De son créateur qui hésitait à l'appeler Paris ou Brest 
+1
+Cet entremet a été baptisé Paris-Brest en hommage à la course cycliste 

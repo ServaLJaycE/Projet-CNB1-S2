@@ -1,0 +1,8 @@
+3
+s3.jpg
+La case 1 représente :
+1 : L'anthère
+2 : L'étamine
+3 : Le stigmate
+4 : Le style 
+4 

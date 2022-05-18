@@ -1,0 +1,8 @@
+2
+De combien d’appareils est constitué le système hydro vasculaire des Astérides ?
+1 : 1
+2 : 3
+3 : 5
+4 : 9
+2
+Le système hydro vasculaire des Astérides est constitué de 3 appareils qui dérivent du coelome

@@ -1,0 +1,6 @@
+2
+Une relation binaire réflexive, symétrique et transitive est une relation d'équivalence :
+1 : Vrai 
+2 : Faux
+1
+Une relation d'ordre est quant à elle réflexive, antisymétrique et transitive.

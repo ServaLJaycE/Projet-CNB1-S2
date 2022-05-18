@@ -1,0 +1,9 @@
+2
+d1.jpg
+Ce drapeau est celui :
+1 : Des Philippines
+2 : De Singapourg
+3 : De la Chine 
+4 : Du Viêtnam
+4
+Le drapeau est composé d'un fond rouge avec en son centre, une étoile jaune.La couleur rouge et l'étoile renvoient directement au drapeau rouge de l'URSS et au communisme.

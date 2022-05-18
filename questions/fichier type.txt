@@ -1,0 +1,42 @@
+nom : n.txt
+
+1 -> ID
+"Question"
+1 : Vrai
+2 : Faux
+1 -> bonne réponse
+"explication"
+
+-------------------------
+
+2 -> ID
+"Question"
+1 : proposition 1
+2 : proposition 2
+3 : proposition 3
+4 : proposition 4
+3 -> bonne réponse
+"explication"
+
+
+-------------------------
+
+3 -> ID							
+n.jpg -> image liée
+"Question" Ex : A quoi correspond le cadre A?
+1 : proposition 1
+2 : proposition 2
+3 : proposition 3
+4 : proposition 4
+2 -> bonne réponse
+
+-------------------------
+
+4 -> ID		
+"Question"
+1 : proposition 1
+2 : proposition 2
+3 : proposition 3
+4 : proposition 4
+3, 4 -> bonne réponse
+"explication"

@@ -1,0 +1,8 @@
+2
+A votre avis, quel est le plus gros exportateur de chameaux au monde ?
+1 : La Norvège 
+2 : La Suisse
+3 : L'Australie
+4 : La Tunisie
+1
+Le plus gros exportateur de chameaux du monde occidental est la Norvège.

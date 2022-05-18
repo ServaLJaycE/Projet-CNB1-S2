@@ -1,0 +1,7 @@
+2
+La formule permettant de calculer une pression est 
+1 : F+S
+2 : FS
+3 : F-S
+4 : F/S
+4

@@ -1,0 +1,8 @@
+2
+Comment sait-on qu’une matrice est inversible ?
+1 : si son déterminant est différent de 0
+2 : si sont déterminant est égale à 0
+3 : si la matrice est symétrique
+4 : si la matrice est triangulaire inférieure
+1
+On sait qu'une matrice est inversible lorsque son déterminant est différent de 0

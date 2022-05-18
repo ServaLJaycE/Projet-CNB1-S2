@@ -1,0 +1,7 @@
+2
+Lequel n’est pas un type de filtre ?
+1 : Le passe-bas
+2 : Le coupe-bande
+3 : Le passe-haut
+4 : Le coupe-haut
+4

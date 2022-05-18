@@ -1,0 +1,8 @@
+2
+Lequel de ces poivres est fait à partir d'un piment ?
+1 : Le poivre vert
+2 : Le poivre de Cayenne
+3 : Le poivre noir
+4 : Le poivre rose
+2
+Le poivre de Cayenne est un faux poivre et doit en réalité être appelé piment de Cayenne. 

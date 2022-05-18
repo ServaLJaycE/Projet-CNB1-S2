@@ -1,0 +1,8 @@
+2
+Comment trouve-t-on le pgcd de deux nombres (plus grand diviseur commun) ?
+1 : En multipliant les nombres entre eux
+2 : Avec l'algorithme d'Euclide
+3 : Avec la méthode de Cramer 
+4 : En les additionnat
+2
+L'algorithme d'Euclide permet de trouver le pgcd de deux nombres en faisant à la suite des divisions euclidiennes.

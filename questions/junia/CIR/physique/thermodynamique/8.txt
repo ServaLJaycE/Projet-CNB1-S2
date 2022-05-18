@@ -1,0 +1,5 @@
+1
+Dans les machines motrices, le fluide qui circule est successivement comprimé, chauffé, détendu et refroidi
+1 : Vrai
+2 : Faux
+1

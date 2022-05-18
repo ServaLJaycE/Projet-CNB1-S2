@@ -1,0 +1,8 @@
+2
+Lequel est un résistant français lors de la seconde guerre mondiale ?
+1 : Jean Moulin 
+2 : Paul Dupont
+3 : Pierre Legrand
+4 : Henri Martin
+1
+Jean Moulin, un haut fonctionnaire et résistant français, est mort le 8 juillet 1943 près de Metz, en Moselle annexée, dans un convoi en partance pour l'Allemagne.

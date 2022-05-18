@@ -1,0 +1,8 @@
+2
+Qu’est-ce qu’une base ?
+1 : un ensemble de vecteur formant une famille liée
+2 : un couple de vecteurs colinéaires
+3 : une famille libre et génératrice de vecteurs
+4 : deux vecteurs ayant des coordonnées proportionnelles 
+3
+B, une famille de vecteur, est une base si B est une famille libre et génératrice

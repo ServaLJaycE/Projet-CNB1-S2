@@ -1,0 +1,8 @@
+2
+D'où le cocktail Piña colada vient-il ? 
+1 : De Cuba
+2 : Des Antilles
+3 : Du Brésil
+4 : Du Mexique
+2
+La piña colada est un cocktail à base de rhum, jus d'ananas et crème de noix de coco, originaire de l’île de Porto Rico des grandes Antilles de la mer des Caraïbes, dont elle est déclarée boisson nationale depuis 1978.

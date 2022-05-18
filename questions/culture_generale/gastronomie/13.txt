@@ -1,0 +1,8 @@
+4
+Lesquels de ces cocktails sont à base de rhum ? 
+1 : Mojito
+2 : Caïpirinha
+3 : Pina Colada
+4 : Margarita
+1, 3
+Le mojito et la pina colada sont tous les deux à base de rhum contrairement à la caïpirinha, à base de cachaça, et la margarita, à base de tequila  

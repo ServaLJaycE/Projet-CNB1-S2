@@ -1,0 +1,5 @@
+1
+Il existe des frottements quadratiques 
+1 : Vrai
+2 : Faux
+1

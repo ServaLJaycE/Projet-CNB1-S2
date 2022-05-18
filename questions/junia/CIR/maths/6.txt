@@ -1,0 +1,6 @@
+1
+Inverser une matrice permet de résoudre un système linéaire 
+1 : Vrai
+2 : Faux
+1
+L'inversion d'une matrice est une des 3 méthodes qui permettent de résoudre un système linéaire 

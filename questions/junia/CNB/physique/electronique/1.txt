@@ -1,0 +1,5 @@
+1
+L’intensité se mesure en ampère 
+1 : Vrai
+2 : Faux
+1

@@ -1,0 +1,5 @@
+1
+La loi des nœuds nous dit que le courant entrant est différent du courant sortant 
+1 : Vrai
+2 : Faux
+2

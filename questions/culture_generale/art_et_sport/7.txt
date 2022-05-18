@@ -1,0 +1,6 @@
+1
+Le saut à la perche est l’un des sports d’athlétisme les plus anciens au monde 
+1 : Vrai
+2 : Faux
+1
+On trouve trace de la technique dans la Grèce antique, où le saut à la perche est utilisé comme moyen de locomotion pour traverser des ruisseaux

@@ -1,0 +1,8 @@
+2
+Quel est le principal constituant des sycons ?
+1 : La calcite
+2 : La silice
+3 : Le fer
+4 : Le soufre
+1
+Les sycons sont des porifères constitués de calcite, ce sont des calcisponges

@@ -1,0 +1,8 @@
+2
+A partir de quelle plante est fabriqué le rhum ?
+1 : Le bananier
+2 : Le physalis
+3 : Le rose du Désert
+4 : La canne à sucre
+4
+Le rhum est une eau-de-vie obtenue par fermentation puis distillation de jus de canne à sucre, de sirop de canne à sucre ou de mélasse.

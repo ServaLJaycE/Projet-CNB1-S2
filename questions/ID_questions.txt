@@ -1,0 +1,9 @@
+1 : Vrai ou faux
+2 : Question à choix multiple
+3 : Schéma
+
+
+1 : 
+2 : 
+3 : 
+4 : 

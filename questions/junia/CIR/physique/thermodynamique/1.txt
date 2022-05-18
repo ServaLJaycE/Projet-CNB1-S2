@@ -1,0 +1,5 @@
+1
+La thermodynamique est la science qui étudie les transferts de chaleur 
+1 : Vrai
+2 : Faux
+1

@@ -1,0 +1,8 @@
+2
+Quel animal cause le plus de morts chaque année ?
+1 : le moustique
+2 : le requin
+3 : l'éléphant
+4 : le lion 
+1
+L'Institut océanographique de Monaco a mené une étude sur le nombre de décès causés chaque année par des animaux sauvages. Il en ressort que l'animal le plus dangereux pour l'homme est le moustique.

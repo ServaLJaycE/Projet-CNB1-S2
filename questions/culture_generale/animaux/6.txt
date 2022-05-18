@@ -1,0 +1,8 @@
+2
+Combien de cerveaux possède le poulpe ?
+1 : 9
+2 : 8
+3 : 3
+4 : 1
+1
+Le poulpe possède 9 cerveaux, un dans sa tête et un dans chacune de ses 8 tentacules

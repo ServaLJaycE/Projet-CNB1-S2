@@ -1,0 +1,7 @@
+2
+En analyse dimensionnelle, l’unité de T est : 
+1 : Ampère
+2 : Mètre
+3 : Seconde 
+4 : Kilogramme
+3

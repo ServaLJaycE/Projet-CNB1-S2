@@ -1,0 +1,8 @@
+2
+De combien d’îles est composé l’archipel d’Hawaï ?
+1 : 3
+2 : 4
+3 : 5
+4 : 6
+4 
+L'archipel d'Hawaï compte six îles principales: Kauai, Oahu, Molokai, Lanai, Maui et l'île d'Hawaï.

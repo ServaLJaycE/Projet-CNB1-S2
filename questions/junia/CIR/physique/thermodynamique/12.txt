@@ -1,0 +1,7 @@
+2
+Une transformation sans échange de chaleur est une transformation 
+1 : Isochore
+2 : Adiabatique
+3 : Isobare
+4 : Isotherme
+2

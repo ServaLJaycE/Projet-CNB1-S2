@@ -1,0 +1,8 @@
+2
+Lequel de ses êtres vivants n’est pas un bivalve ?
+1 : La moule
+2 : Le poulpe
+3 : Le couteau 
+4 : L'huître 
+2
+Le poulpe n'est pas un bivalve car il n'a pas de coquille, il fait parti des cephalopodes

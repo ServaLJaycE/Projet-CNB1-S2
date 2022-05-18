@@ -1,0 +1,8 @@
+3
+s3.jpg
+La case 2 représente :
+1 : Les pétales 
+2 : La corolle
+3 : Le calice
+4 : Le pédoncule
+1

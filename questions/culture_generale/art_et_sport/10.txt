@@ -1,0 +1,8 @@
+2
+Qui est le producteur de Charlie et la chocolaterie ?
+1 : Michael Bay
+2 : Steven Spielberg
+3 : Luc Besson
+4 : Tim Burton
+4
+Charlie et la chocolaterie est réalisé par Tim Burton en 2005

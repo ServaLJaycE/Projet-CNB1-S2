@@ -1,0 +1,8 @@
+2
+Quelle est la seule ville au monde à chevaucher 2 continents ?
+1 : Moscou
+2 : Istanbul
+3 : Asuncion
+4 : Jaipur
+2
+Istanbul est la seulle ville au monde à chevaucher 2 continents, l'Europe et l'Asie. Symbole de cette double identité, Istanbul a été nommée capitale européenne de la culture en 2010.

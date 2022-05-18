@@ -1,0 +1,7 @@
+2
+Le PFD est :
+1 : Le protocole fondamental de la dynamique
+2 : Le principe forcé de la dynamique
+3 : Le principe fondamental de la dictée
+4 : Le principe fondamental de la dynamique
+4

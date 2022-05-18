@@ -1,0 +1,7 @@
+2
+On dit que P, un polynôme, est unitaire si : 
+1 : P est un monôme
+2 : P est un polynôme nul
+3 : Si le degré de P est un nombre pair
+4 : Le coefficient dominant de P est 1
+4

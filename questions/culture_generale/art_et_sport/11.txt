@@ -1,0 +1,8 @@
+4
+Lesquels de ses acteurs ont été oscarisés ? 
+1 : Rami Malek
+2 : Joaquin Phoenix 
+3 : Leonardo DiCaprio 
+4 : Johnny Depp
+1, 2
+Rami Malek, pour le film Bohemian Rhapsody, et Joaquin Phoenix, pour le film Joker ont tous les deux été récompensés de l'oscar du meilleur acteur. Leonardo DiCaprio et Jonnhy Depp ont eux-deux été nommés plusieurs fois mais n'ont jamais remporté d'oscar 

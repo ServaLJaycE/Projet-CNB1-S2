@@ -1,0 +1,8 @@
+2
+Lequel de ses appareils ne fait pas parti du système hydro vasculaire de l’Astéride : 
+1 : Aquifère
+2 : Cinusaire
+3 : Lacunaire
+4 : Cosinusaire
+4
+Le système hydro vasculaire des Astérides est constitué de 3 appareils qui dérivent du coelome : l'appareil aquifère, l'appareil cinusaire ou périhémal et l'appareil lacunaire ou hémal

@@ -1,0 +1,7 @@
+2
+La puissance est en :
+1 : Seconde
+2 : Kilogramme
+3 : Watt
+4 : Mètre 
+3

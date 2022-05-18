@@ -1,0 +1,8 @@
+2
+Quel est le nom de la limace de mer ?
+1 : Le lamellibranche
+2 : Le gastéropode
+3 : La Sepia officinalis
+4 : l'Elysie émeraude
+4
+Elle tient son nom de sa couleur verte qu'elle obtient en mangeant une algue et en stockant dans son intestin les chroplastes, d'où sa couleur verte 

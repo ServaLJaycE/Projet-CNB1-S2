@@ -1,0 +1,9 @@
+4
+Lesquels de ces films ont été réalisé par Steven Spielberg ? 
+1 : Dumbo 
+2 : Miss Peregrine
+3 : West Side Story
+4 : Ready Player One
+3, 4
+West Side Story et Ready Player One ont été réalisés par Steven Spielberg. Tim Burton est le réalisateur des deux autres films
+

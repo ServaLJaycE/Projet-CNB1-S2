@@ -1,0 +1,7 @@
+2
+La loi d’Ohm est :  
+1 : R= U/I
+2 : U= R/I
+3 : R= UI
+4 : U= RI
+4

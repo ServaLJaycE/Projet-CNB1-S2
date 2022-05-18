@@ -1,0 +1,8 @@
+2
+Quel acte de la vie courante occupe environ 6 mois de notre vie ?
+1 : Passer le balai
+2 : Regarder la télévision
+3 : Sortir les poubelles
+4 : Attendre au feu rouge
+4
+On passe environ 6 mois de notre vie à attendre au feu rouge

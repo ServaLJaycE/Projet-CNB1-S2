@@ -1,0 +1,8 @@
+2
+Historiquement, d’où vient la choucroute ?
+1 : D'Alsace
+2 : Des Etats-Unis
+3 : De Chine
+4 : De l'Australie
+3
+D'originaire de Chine, elle a été exportée par les Huns jusqu’en Autriche avant d’atteindre l’Alsace

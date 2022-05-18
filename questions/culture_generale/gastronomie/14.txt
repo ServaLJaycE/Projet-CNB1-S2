@@ -1,0 +1,8 @@
+4
+Lesquelles de ces pâtisseries sont françaises ?  
+1 : Millefeuille
+2 : Saint Honoré
+3 : Scones
+4 : Baklava 
+1, 2
+Le millefeuille et de saint Honoré sont des pâtisseries françaises, les scones eux viennent de Grande-Bretagne et les baklavas de Turquie ou de Grèce

@@ -1,0 +1,6 @@
+1
+La méthode de Cramer n’est pas une méthode de résolution d’un système linéaire
+1 : Vrai
+2 : Faux
+2
+La méthode de Cramer est une des 3 méthodes qui permettent de résoudre un système linéaire 

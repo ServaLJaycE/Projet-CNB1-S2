@@ -1,0 +1,7 @@
+2
+Le débit massique est en :  
+1 : kg
+2 : kg/s
+3 : m/s
+4 : s/kg
+2
