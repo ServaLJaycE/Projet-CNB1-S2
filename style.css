@@ -100,8 +100,15 @@ table.menu td a{
     color: white;
     padding-top: 25px;
     padding-bottom: 25px;
-    padding-left: 30px;
-    padding-right: 30px;
+    padding-left: 100px;
+    padding-right: 100px;
+    transition: transform 0.5s;
+}
+
+table.menu td a:hover{
+    background-color: rgb(38, 0, 255);
+    border-radius: 15px;
+    transform: scale(1.2);
 }
 
 table.menu{
