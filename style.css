@@ -64,6 +64,13 @@ ul#Menu li a{
     padding-left: 20px;
     padding-right: 20px;
     border-radius: 15px;
+    transition: transform 0.5s;
+}
+
+ul#Menu li a:hover{
+    transform: scale(1.2);
+    background-color: rgb(38, 0, 255);
+    border-radius: 15px;
 }
 
 li.boutons a{
