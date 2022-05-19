@@ -5,7 +5,7 @@ let startBtn = document.getElementById("start");
 
 let heure = 0;
 let minute = 0;
-let secondes = 0;
+let secondes = 20;
 
 let timeout;
 
@@ -31,7 +31,7 @@ const defilerTemps = () => {
     minutes = parseInt(minutes);
     heures = parseInt(heures);
 
-    secondes++;
+    secondes--;
 
     if(secondes == 60){
         minutes++;
@@ -59,11 +59,11 @@ const defilerTemps = () => {
 };
 
 const reset = () => {
-    chrono.textContent = "00:00:00";
+    chrono.textContent = "00:00:20";
     estArrete = true;
     heures = 0;
     minutes = 0;
-    secondes = 0;
+    secondes = 20;
     clearTimeout(timeout);
 
 };
