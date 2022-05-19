@@ -1,0 +1,108 @@
+<!DOCTYPE html><html lang='fr'><head><meta charset='UTF-8'><title>Chrono</title>
+</head><body><font size='12'><div id='div'></div><pre><script>
+
+'use strict';
+
+class Timer
+{
+	// membres private
+	#id; // l'id de l'élément DOM pour affichage (un div) 
+	#div; // le div, on peut essayer avec d'autres éléménts
+	#time; // le timer en tour par seconde
+	#stop; // pour arrêter l'horloge
+	#img = 0; // l'indice du caractère à afficher
+	#interval = undefined; // l'objet par setInterval
+	#chrono = ['🕐','🕑','🕒','🕓','🕔','🕕','🕖','🕗','🕘','🕙','🕚','🕛',
+			   '🕜','🕝','🕞','🕟','🕠','🕢','🕣','🕤','🕥','🕦','🕧','🕧'];
+
+	// constructeur
+	constructor(id = 'div', left = 0, top = 0, time = 1)
+	{
+		this.#div = document.getElementById(id);
+		if("object" != typeof(this.#div))return;
+		this.#id = id;
+		this.#time = Math.floor(1000*time/12); // 12 caractères par seconde
+		this.#div.style='position:absolute;'
+			+'left:'+left+'px;' 
+			+'top:'+top+'px;' 
+		this.#stop = false;
+		setTimeout(this.#affiche());// pour affichage "statique"
+	}
+
+	// getters
+	get left(){return this.#div.style.left;}
+	get top(){return this.#div.style.top;}
+	get id(){return this.#id;}
+	get time(){return Math.floor(12*this.#time/1000);}
+	get stop(){return this.#stop;}
+	get #Div(){return this.#div;} // private (accessible par le DOM tut de même) 
+
+	// setters
+	set left(l){return this.#Div.style.left = l+'px';} // pour déplacer le div
+	set top(t){return this.#Div.style.top = t+'px';} // idem
+	set time(t) { // t en tour complet par seconde
+		if ( this.#time == Math.floor(1000*t/12))return;
+		this.#time = Math.floor(1000*t/12);
+		if(this.#interval != undefined)
+		{
+			clearInterval(this.#interval);
+			this.#interval = setInterval(
+				this.#setTimer,
+				this.#time,
+				this);
+		}
+	}
+
+	// méthodes private 
+	#affiche() {
+		this.#Div.innerText = this.#chrono[
+			this.#img = ++ this.#img % 12];
+	}
+	
+	#setTimer(t) {if(!t.#stop)t.#affiche();}// le time appelé par setInterval
+
+	// méthodes public 
+	init() { // lance l'horloge
+		if(this.#interval == undefined)
+		{
+			this.#interval = setInterval(
+				this.#setTimer,
+				this.#time,
+				this);
+		}
+	}
+	arret() { this.#stop = true;	}
+	repart() { this.#stop = false;	}
+	isok(){ return "object" == typeof(this.#Div);}
+};
+
+var T = new Timer('div',200,100);
+T.init();
+//T.arret();
+//T.repart();
+
+var a=0;
+function clk()// pour déplacer le div dans la class Timer avec button '?'
+{
+	T.left=200+150*Math.cos(Math.PI*a/180);
+	T.top=200+150*Math.sin(Math.PI*a/180);
+	a+=10;
+}
+
+//////////////////////////////////////////
+// la même chose sans class
+function plussimplesansclass(id)
+{
+	let div = document.getElementById(id);
+	let t = 0; // l'indice de chrono [t]
+	let chrono = ['🕛','🕐','🕑','🕒','🕓','🕔','🕕','🕖','🕗','🕘','🕙','🕚']
+	function affiche() {
+		div.innerText = chrono[t = ++ t % 12];
+	}
+	return setInterval(affiche,83); // 1 tour par seconde
+}
+// var i = plussimplesansclass('div');
+// clearInterval(i);// pour stopper
+//////////////////////////////////////////
+
+</script></pre></font><button onclick='clk();' style='position:absolute;top:0px;left:0px;width:60px;height:60px;'>?</button></body></html>
