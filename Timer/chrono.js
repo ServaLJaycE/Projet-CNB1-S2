@@ -32,6 +32,8 @@ const defilerTemps = () => {
     heures = parseInt(heures);
 
     secondes--;
+    //*ifsecondes==0
+    //lier question
 
     if(secondes == 60){
         minutes++;
