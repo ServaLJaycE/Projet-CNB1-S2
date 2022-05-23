@@ -1,48 +1,19 @@
+*{
+    padding: 0;
+    margin: 0;
+}
 /*-----------Entête-----------*/
-div#entête{
-    position: relative;
-    width: 100%;
-    background-color: aliceblue;
-}
-div#entête ul{ 
-    list-style-type: none;
-}
-div#entête li{
-    margin: 0%;
-    text-align: center
+div.header{
+    display: grid;
+    grid-template-columns: 15vw 15vw 40vw 15vw 15vw;
+    grid-template-rows: 5vw;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
 }
 
-div#entête li#logo a{
-    display: block;
-    padding: 5px;
+div.header a{
     text-decoration: none;
     color: black;
-}
-
-div#entête li#logo{
-    position: absolute;
-    left: 5%;
-    top: 2%;
-}
-
-
-div#entête li#quisen{
-    display: block;
-    position: absolute;
-    font-family :'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    left: 45%;
-    top: 2%;
-    width: 10%;
-}
-
-
-
-div#entête li#classement{
-    display: block;
-    position: absolute;
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    right: 5%;
-    top: 2%;
 }
 
 /*----------------Menu-------------------*/
@@ -94,7 +65,7 @@ ul#Menu li#Culture{
 /*--------------Culture G-------------*/
 
 table.menu td{
-    width: 100%;
+    width: 30vw;
     background-color: darkblue;
     text-align: center;
     border: solid white 1px;
@@ -108,10 +79,10 @@ table.menu td a{
     text-decoration: none;
     color: white;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
-    padding-top: 25px;
-    padding-bottom: 25px;
-    padding-left: 100px;
-    padding-right: 100px;
+    padding-top: 2vw;
+    padding-bottom: 2vw;
+    padding-left: 10vw;
+    padding-right: 10vw;
     transition: transform 0.5s;
 }
 
@@ -123,10 +94,21 @@ table.menu td a:hover{
 
 table.menu{
     border-spacing: 30px;
-    position: absolute;
-    top: 25%;
-    left: 25%;
-    right: 25%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto; 
+    width: 100vw;   
+}
+
+table.menu tbody {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+table.menu tr{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 /*----------------ISEN---------------*/
@@ -158,7 +140,7 @@ ul#accordéon li{
 ul#accordéon li li{
     max-height: 0;
     overflow: hidden;
-    transition: all .2s;
+    transition: all .5s;
     border-radius: 0;
     border: none;
     margin: 0;
@@ -187,7 +169,7 @@ ul#accordéon li li:hover{
 
 
 ul#accordéon ul li:last-child {
-    border-radius: 0 0 6px 6px;
+    border-radius: 0 0 15px 15px;
     border:none;
  }
 
