@@ -63,6 +63,11 @@ ul#Menu li#Culture{
     right: 20%;
 }
 /*--------------Culture G-------------*/
+.boutons{
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
 
 table.menu td{
     width: 30vw;
@@ -131,7 +136,9 @@ ul#accordéon ul{
 ul#accordéon li{
     background-color: midnightblue;
     border-radius: 15px;
-    margin-bottom: 2px;
+    margin-bottom: 5vh;
+    height: 5vh;
+    vertical-align: auto;
     border: solid 1px white;
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 
@@ -141,12 +148,15 @@ ul#accordéon li li{
     max-height: 0;
     overflow: hidden;
     transition: all .5s;
-    border-radius: 0;
-    border: none;
-    margin: 0;
     color: white;
     background-color:darkblue;
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border-radius: 0;
+    border-right: solid 1px white;
+    border-left: solid 1px white;
+    border-bottom: none;
+    border-top: none;
+    margin: 0;
 }
 
 ul#accordéon li:hover  li{
@@ -161,6 +171,7 @@ ul#accordéon li li a{
     font-size: 1,2em;
     color: white;
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
 }
 
 ul#accordéon li li:hover{
@@ -170,17 +181,26 @@ ul#accordéon li li:hover{
 
 ul#accordéon ul li:last-child {
     border-radius: 0 0 15px 15px;
+    background-color: midnightblue;
     border:none;
+    height: 2vh;
  }
 
 ul.CNB{
     position: absolute;
-    top: 30%;
-    left: 30%;
+    top: 40vh;
+    left: 20vw;
+
 }
 
 ul.CIR{
     position: absolute;
+<<<<<<< HEAD
+    top: 40vh;
+    right: 20vw ;
+=======
     top: 30%;
     right: 30%;
+>>>>>>> ad3168819459ebd3a949023d0b78df30998b71c9
 }
+
