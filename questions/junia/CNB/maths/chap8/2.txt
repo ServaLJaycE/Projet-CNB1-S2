@@ -1,0 +1,7 @@
+2
+Que signifie Q|P ?
+1 : Q divise P
+2 : P divise Q
+3 : P et Q sont premiers entre eux
+4 : Q est l'opposé de P
+1
