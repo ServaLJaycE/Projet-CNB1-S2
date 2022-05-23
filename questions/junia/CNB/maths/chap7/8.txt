@@ -1,0 +1,7 @@
+2
+L’entier 4 est un inverse modulo 11 de 
+1 : 3
+2 : -3
+3 : 4
+4 : 1
+1

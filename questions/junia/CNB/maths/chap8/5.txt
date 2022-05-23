@@ -1,0 +1,7 @@
+4
+Soient P(X) et Q(X) deux polynômes unitaires de degré n ⩾ 1 
+1 : P + Q est un polynôme de degré n 
+2 : P × Q est un polynôme de degré 2n
+3 : P − Q est un polynôme de degré n
+4 : P/Q est un polynôme de degré 0
+1,2

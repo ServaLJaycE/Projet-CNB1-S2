@@ -1,0 +1,7 @@
+4
+Quel est l’ensemble S des solutions de l’équation diophantienne 121x + 33y = 22 ? 
+1 : S = {(1 + 3k; −3 − 11k), k ∈ Z} 
+2 : S = {(11 − 32k; −36 + 19k), k ∈ Z}
+3 : S = {(1 − 3k; −3 + 11k), k ∈ Z}
+4 : S = {(10 − 23k; −34 + 15k), k ∈ Z}
+1, 3

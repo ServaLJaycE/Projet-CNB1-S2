@@ -1,0 +1,5 @@
+1
+A, une matrice, est diagonalisable si et seulement si elle possède n vecteurs propres formant une base 
+1 : Vrai
+2 : Faux
+1

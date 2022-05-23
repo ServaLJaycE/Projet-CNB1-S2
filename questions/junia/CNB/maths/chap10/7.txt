@@ -1,0 +1,7 @@
+2
+Un système de Cramer est un système carré dont la matrice associée est
+1 : symétrique
+2 : inversible
+3 : transposable
+4 : triangulaire
+2

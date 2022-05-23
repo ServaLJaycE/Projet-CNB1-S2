@@ -1,0 +1,5 @@
+1
+Le déterminant du produit de deux matrices est le produit de leur déterminant 
+1 : Vrai
+2 : Faux
+1

@@ -1,8 +1,6 @@
-2
-Si le pgcd de deux nombres vaut 1 alors les nombres sont :
-1 : Symétrique
-2 : Premiers entre eux
-3 : Dérivables
-4 : Inférieurs à 0
-2
-
+1
+La classe d’équivalence de a modulo R est l’ensemble formé par tous les éléments de E qui sont en relation avec a :
+1 : Vrai
+2 : Faux
+1
+ 
