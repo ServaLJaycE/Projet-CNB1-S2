@@ -63,6 +63,11 @@ ul#Menu li#Culture{
     right: 20%;
 }
 /*--------------Culture G-------------*/
+.boutons{
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
 
 table.menu td{
     width: 30vw;
@@ -185,6 +190,3 @@ ul.CIR{
     right: 30%;
 }
 
-.boutons{
-    background-size: auto;
-}
