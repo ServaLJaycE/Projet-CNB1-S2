@@ -1,0 +1,6 @@
+1
+La classe d’équivalence de a modulo R est l’ensemble formé par tous les éléments de E qui sont en relation avec a :
+1 : Vrai
+2 : Faux
+1
+ 

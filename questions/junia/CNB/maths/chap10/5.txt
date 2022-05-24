@@ -1,0 +1,7 @@
+2
+Si rg(A|B)=rg(A), le système d’équation matricielle AX=B est dit 
+1 : irrégulier
+2 : régulier
+3 : incompatible 
+4 : compatible 
+4

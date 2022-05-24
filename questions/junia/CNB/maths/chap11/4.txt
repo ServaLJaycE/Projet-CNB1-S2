@@ -1,0 +1,5 @@
+1
+Une application f:R→R ne peut pas être linéaire 
+1 : Vrai
+2 : Faux
+2

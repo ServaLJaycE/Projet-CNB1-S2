@@ -1,0 +1,7 @@
+2
+Une application linéaire de Rp dans Rn est 
+1 : un endomorphisme
+2 : un morphisme
+3 : un automorphisme 
+4 : un homomorphisme
+2, 4

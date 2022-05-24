@@ -1,0 +1,7 @@
+2
+Soit P ∈ R[X] un polynôme de degré 8. P admet :
+1 : Au plus 8 racines réelles comptées avec multiplicité
+2 : Au moins une racine réelle
+3 : Exactement 8 racines réelles comptées avec multiplicité
+4 : Au moins 8 racines réelles comptées avec multiplicité
+1
