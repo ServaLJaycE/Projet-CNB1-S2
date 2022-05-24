@@ -6,7 +6,7 @@ var defaults = {}
   , startDate = new Date()
   , face = document.getElementById('lazy');
 
-// http://paulirish.com/2011/requestanimationframe-for-smart-animating/
+
 var requestAnimationFrame = (function() {
   return window.requestAnimationFrame       || 
          window.webkitRequestAnimationFrame || 
