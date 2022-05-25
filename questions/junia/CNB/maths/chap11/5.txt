@@ -1,0 +1,5 @@
+1
+Une application bijective est toujours linéaire 
+1 : Vrai
+2 : Faux
+2

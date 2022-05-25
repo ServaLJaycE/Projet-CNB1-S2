@@ -1,0 +1,7 @@
+2
+Un système linéaire qui n’a aucune solution est dit 
+1 : incompatible
+2 : compatible
+3 : irrégulier
+4 : régulier
+1

@@ -1,0 +1,7 @@
+2
+Un système de Cramer est aussi appelé : 
+1 : système incompatible
+2 : système compatible
+3 : système irrégulier
+4 : système régulier
+4

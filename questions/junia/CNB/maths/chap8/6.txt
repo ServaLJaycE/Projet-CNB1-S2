@@ -1,0 +1,5 @@
+1
+Soient P, S deux polynômes, avec Q non nul. Soit P = S × Q + R la division euclidienne de P par S : Un tel Q existe toujours :
+1 : Vrai
+2 : Faux
+1

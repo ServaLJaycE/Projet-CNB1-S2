@@ -1,7 +1,8 @@
 2
-a=bq+r, q est :
-1 : Le dividende
-2 : Le diviseur
-3 : Le reste
-4 : Le quotient
-4
+Si le pgcd de deux nombres vaut 1 alors les nombres sont :
+1 : Symétrique
+2 : Premiers entre eux
+3 : Dérivables
+4 : Inférieurs à 0
+2
+
