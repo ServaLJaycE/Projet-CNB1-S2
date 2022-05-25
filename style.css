@@ -69,6 +69,8 @@ ul#Menu li#Culture{
     background-size: contain;
     background-repeat: no-repeat;
     background-size: 100%;
+    height: 100%; width: 100%;
+    background-position: center;
 }
 
 table.menu td{
