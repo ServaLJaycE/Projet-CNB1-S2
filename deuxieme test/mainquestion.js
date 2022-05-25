@@ -62,7 +62,7 @@ let questionsData = [
       text: "qu'es ce qu'un dindon",
       answers: [
         {
-          text: "un oiseau",
+          text: "Logan",
           isCorrect: true
         },
         {
