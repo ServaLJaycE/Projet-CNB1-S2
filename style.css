@@ -189,7 +189,7 @@ ul#accordéon ul li:last-child {
  }
 
  ol.sous_catégories{
-    display: block;
+    display: none;
  }
  
 
