@@ -1,58 +1,58 @@
 // creating an array and passing the number, questions, options, and answers
 let questions = [
     {
-       
-    question: "quel est la taille de la langue d'une girafe",
-    answer: "50cm",
+      type: 1,
+    question: "D’où vient le Kouign-amann ?",
+    answer: "De Bretagne",
     options: [
-      "2cm",
-      "logan",
-      "50cm",
-      "30cm"
+      "De Normandie",
+      "De Bretagne",
+      "De Lyon",
+      "De Lille"
     ]
   },
     {
-       
-    question: " Quel animal cause le plus de morts chaque année ? ",
-    answer: "moustique",
+      type: 1,
+    question: " Historiquement, d’où vient la choucroute ?",
+    answer: "De Chine",
     options: [
-      "moustique",
-      "le requin",
-      "l'éléphant",
-      "le lion "
+      "D'Alsace",
+      "Des Etats-Unis",
+      "De l'Australie",
+      "De Chine"
       ]
   },
     {
-     
-    question: " Combien y’a-t-il d’attaques de requins non provoquées par an ? ",
-    answer: " entre 50 et 100",
+      type: 1,
+    question: "Qu’est-ce que la daube provençale ?",
+    answer: "Un plat mijoté de boeuf",
     options: [
-      "entre 0 et 50",
-      " entre 50 et 100",
-      "entre 100 et 150",
-      "entre 150 et 200"
+      "Un plat mijoté de boeuf",
+      "Un alcool",
+      "Une pâtisserie à  la lavande",
+      "Une ratatouille"
     ]
   },
     {
-    
-    question: "De quelle couleur est la sang de la pieuvre ?",
-    answer: " bleu ",
+      type: 1,
+    question: "Lesquel de ces cocktails est à base de rhum ? ",
+    answer: " Mojito ",
     options: [
-      "rouge",
-      " vert",
-      "violet",
-      " bleu "
+      "Mojito",
+      "Caïpirinha",
+      "Margarita",
+      "Gin tonic"
     ]
   },
     {
-    
-    question: "Combien de cerveaux possède le poulpe ?",
-    answer: "9",
+      type: 1,
+    question: "Qu'est-ce que le saké ?",
+    answer: "Un alcool de riz",
     options: [
-      "8",
-      "9",
-      "3",
-      "1"
+      "Une boisson énergisante à base de thé au jasmin",
+      "Un alcool de riz",
+      "Un alcool de litchi",
+      "Une prise de judo"
     ]
   },
 ];

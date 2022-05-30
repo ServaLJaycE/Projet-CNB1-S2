@@ -1,58 +1,55 @@
 // creating an array and passing the number, questions, options, and answers
 let questions = [
     {
-      
-    question: "quel est la taille de la langue d'une girafe",
-    answer: "50cm",
+      type: 2,  
+    question: "Bamako est la capitale du Mali.",
+    answer: "Vrai",
     options: [
-      "2cm",
-      "logan",
-      "50cm",
-      "30cm"
+      "Vrai",
+      "Faux",
+    ]
+  },
+  {
+    type: 1,   
+  question: "Quelle est la capitale du Canada ?",
+  answer: "Ottawa",
+  options: [
+    "Montréal",
+    "Ottawa",
+    "Québec",
+    "Toronto"
+  ]
+},
+
+    {
+      type: 1,  
+    question: "Quelle est la seule ville au monde à chevaucher 2 continents ?",
+    answer: "Istanbul",
+    options: [
+      "Moscou",
+      "Istanbul",
+      "Asuncion",
+      "Jaipur"
     ]
   },
     {
-      
-    question: " Quel animal cause le plus de morts chaque année ? ",
-    answer: "moustique",
+      type:2,  
+    question: "Moins de la moitié du Japon est recouvert par des montagnes",
+    answer: "Faux",
     options: [
-      "moustique",
-      "le requin",
-      "l'éléphant",
-      "le lion "
-      ]
-  },
-    {
-     
-    question: " Combien y’a-t-il d’attaques de requins non provoquées par an ? ",
-    answer: " entre 50 et 100",
-    options: [
-      "entre 0 et 50",
-      " entre 50 et 100",
-      "entre 100 et 150",
-      "entre 150 et 200"
+      "Vrai",
+      "Faux",
     ]
   },
     {
-       
-    question: "De quelle couleur est la sang de la pieuvre ?",
-    answer: " bleu ",
+      type: 1,  
+    question: "Lequel est un résistant français lors de la seconde guerre mondiale ?",
+    answer: "Jean Moulin",
     options: [
-      "rouge",
-      " vert",
-      "violet",
-      " bleu "
-    ]
-  },
-    {
-      
-    question: "Combien de cerveaux possède le poulpe ?",
-    answer: "9",
-    options: [
-      "8",
-      "9",
-      "3",
-      "1"
+      "Jean Moulin",
+      "Paul Dupont",
+      "Pierre Legrand",
+      "Henri Martin"
     ]
   },
 ];

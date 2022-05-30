@@ -1,58 +1,54 @@
 // creating an array and passing the number, questions, options, and answers
 let questions = [
     {
-      
-    question: "quel est la taille de la langue d'une girafe",
-    answer: "50cm",
+      type: 2,
+    question: "Le premier championnat de pétanque s'est tenu en 1959",
+    answer: "Vrai",
     options: [
-      "2cm",
-      "logan",
-      "50cm",
-      "30cm"
+      "Vrai",
+      "Faux",
     ]
   },
     {
-       
-    question: " Quel animal cause le plus de morts chaque année ? ",
-    answer: "moustique",
+      type: 1,
+    question: " Qui est le plus jeune pilote de F1 à avoir remporté un Grand prix ? ",
+    answer: "Max Verstappen",
     options: [
-      "moustique",
-      "le requin",
-      "l'éléphant",
-      "le lion "
+      "Lewis Hamilton",
+      "Sebastian Vettel",
+      "Max Verstappen",
+      "Fernando Alonso "
       ]
   },
     {
-      
-    question: " Combien y’a-t-il d’attaques de requins non provoquées par an ? ",
-    answer: " entre 50 et 100",
+      type: 1,
+    question: "Quelle est la durée du plus long match de tennis ?",
+    answer: "11 heures et 5 minutes",
     options: [
-      "entre 0 et 50",
-      " entre 50 et 100",
-      "entre 100 et 150",
-      "entre 150 et 200"
+      "9 heures et 45 minutes",
+      "10 heures et 35 minutes",
+      "11 heures et 5 minutes",
+      "12 heures et 20 minutes"
     ]
   },
     {
-     
-    question: "De quelle couleur est la sang de la pieuvre ?",
-    answer: " bleu ",
+      type: 2,
+    question: "Le saut à la perche est l’un des sports d’athlétisme les plus anciens au monde ",
+    answer: " Vrai ",
     options: [
-      "rouge",
-      " vert",
-      "violet",
-      " bleu "
+      "Vrai",
+      "Faux",
     ]
   },
     {
-     
-    question: "Combien de cerveaux possède le poulpe ?",
-    answer: "9",
+      type: 1,
+    question: "Dans la série Stranger Things, qui joue le rôle de Onze ?",
+    answer: "Millie Bobby Brown",
     options: [
-      "8",
-      "9",
-      "3",
-      "1"
+      "Winona Ryder",
+      "Millie Bobby Brown",
+      "Natalia Dyer",
+      "Sadie Sink"
     ]
   },
 ];
