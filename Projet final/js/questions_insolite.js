@@ -1,71 +1,71 @@
 // creating an array and passing the number, questions, options, and answers
 let questions = [
-    {
-      numb:'1',
-    question: "quel est la taille de la langue d'une girafe",
-    answer: "50cm",
-    options: [
-      "2cm",
-      "logan",
-      "50cm",
-      "30cm"
+  {
+    type: 1,
+  question: "Que redoute le plus quelqu'un atteint de pténorophobie ?",
+  answer: "D'être chatouillé par des plumes",
+  options: [
+    "D'être chatouillé par des plumes",
+    "D'avoir un oiseau sur lui",
+    "D'être dans une volière",
+    "De voir un oiseau mort"
+  ]
+},
+  {
+    type: 1,
+  question: " Au Paraguay, les duels sont légaux à condition que les deux protagonistes... ",
+  answer: "Soient enregistrés comme donneurs de sang",
+  options: [
+    "Lèguent un bien de valeur en cas de défaite",
+    "Soient enregistrés comme donneurs de sang",
+    "Se saluent respectuesement avant le combat",
+    "Boivent de l'eau avant de commencer "
     ]
-  },
-    {
-      numb:"2",
-    question: " Quel animal cause le plus de morts chaque année ? ",
-    answer: "moustique",
-    options: [
-      "moustique",
-      "le requin",
-      "l'éléphant",
-      "le lion "
-      ]
-  },
-    {
-      numb:'3',
-    question: " Combien y’a-t-il d’attaques de requins non provoquées par an ? ",
-    answer: " entre 50 et 100",
-    options: [
-      "entre 0 et 50",
-      " entre 50 et 100",
-      "entre 100 et 150",
-      "entre 150 et 200"
-    ]
-  },
-    {
-      numb:'4',
-    question: "De quelle couleur est la sang de la pieuvre ?",
-    answer: " bleu ",
-    options: [
-      "rouge",
-      " vert",
-      "violet",
-      " bleu "
-    ]
-  },
-    {
-      numb:'5',
-    question: "Combien de cerveaux possède le poulpe ?",
-    answer: "9",
-    options: [
-      "8",
-      "9",
-      "3",
-      "1"
-    ]
-  },
+},
+  {
+    type: 1,
+  question: " Quel acte de la vie courante occupe eniron 6 mois de notre vie? ",
+  answer: " Attendre à un feu rouge",
+  options: [
+    "passer le balais",
+    " regarder la télévision",
+    "sortir les poubelles",
+    "Attendre à un feu rouge"
+  ]
+},
+  {
+    type: 1,
+  question: "Que s'est il passé le 25 décembre 1914 ?",
+  answer: " Noël ",
+  options: [
+    "Le bombardement de Paris",
+    "Le début de la première guerre mondiale",
+    "Un appel par le Général de Gaulle",
+    " Noël "
+  ]
+},
+  {
+    type: 1,
+  question: "L'un des deux symboles de l'Ecosse est :",
+  answer: "La licorne",
+  options: [
+    "La loutre",
+    "La marmotte",
+    "Le coléoptère",
+    "La licorne"
+  ]
+},
 ];
-  
-  /**
-   * Shuffles array in place. ES6 version
-   * @param {Array} arr items An array containing the items.
-   */
-   function shuffle(arr) {
-    for (let i = arr.length - 1; i > 0; i--) {
-      const j = Math.floor(Math.random() * (i + 1));
-      [arr[i], arr[j]] = [arr[j], arr[i]];
-    }
+
+/**
+ * Shuffles array in place. ES6 version
+ * @param {Array} arr items An array containing the items.
+ */
+ function shuffle(arr) {
+  for (let i = arr.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [arr[i], arr[j]] = [arr[j], arr[i]];
   }
-  
-  shuffle(questions);
+}
+
+shuffle(questions);
