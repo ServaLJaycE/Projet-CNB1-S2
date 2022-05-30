@@ -25,7 +25,7 @@ let questions = [
   {
     type: 1,
   question: " Quel acte de la vie courante occupe eniron 6 mois de notre vie ? ",
-  answer: " Attendre à un feu rouge",
+  answer: "Attendre à un feu rouge",
   options: [
     "passer le balais",
     "regarder la télévision",
