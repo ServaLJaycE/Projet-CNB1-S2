@@ -1,0 +1,230 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+/*-----------Entête-----------*/
+div.header{
+    display: grid;
+    grid-template-columns: 15vw 15vw 40vw 15vw 15vw;
+    grid-template-rows: 9vh;
+    background-color: white;
+}
+
+
+div.header a{
+    text-decoration: none;
+    color: black;
+}
+
+div.header div.logo a img{
+    width: auto;
+    height: 9vh;
+}
+
+.header div.quisen {
+    text-align: center;
+    font-weight: bold;
+    font-family: 'miltonian';
+    font-size: larger;
+}
+/*----------------Menu-------------------*/
+
+body {
+    background-color:lightskyblue;
+}
+
+ul#Menu{
+    list-style-type: none;
+}
+
+ul#Menu li a{
+    display: block;
+    text-align: center;
+    float: left;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color:midnightblue;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 15px;
+    transition: transform 0.5s;
+}
+
+/* test réparation d'un bug*/
+ul#Menu li a:hover{
+    transform: scale(1.2);
+    background-color: rgb(38, 0, 255);
+    border-radius: 15px;
+}
+
+li.boutons a{
+    text-decoration: none;
+    color: white;
+}
+
+ul#Menu li {
+    position: absolute;
+    top: 30%;
+}
+ul#Menu li#Isen {
+    left: 20%;
+}
+
+ul#Menu li#Culture{
+    right: 20%;
+}
+/*--------------Culture G-------------*/
+.boutons{
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;
+}
+
+table.menu td{
+    width: 30vw;
+    background-color: darkblue;
+    text-align: center;
+    border: solid white 1px;
+    border-radius: 15px;
+    table-layout: fixed;
+
+}
+
+table.menu td a{
+    display: block;
+    text-decoration: none;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
+    padding-top: 2vw;
+    padding-bottom: 2vw;
+    padding-left: 10vw;
+    padding-right: 10vw;
+    transition: transform 0.5s;
+}
+
+table.menu td a:hover{
+    background-color: rgb(38, 0, 255);
+    border-radius: 15px;
+    transform: scale(1.2);
+}
+
+table.menu{
+    border-spacing: 30px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto; 
+    width: 100vw;   
+}
+
+table.menu tbody {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+table.menu tr{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/*----------------ISEN---------------*/
+
+ul#accordéon {
+    list-style-type: none;
+    text-align: center;
+    width: 16vw;
+    height: 100px;
+    color: white;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+ul#accordéon ul{
+    padding: 0;
+    list-style-type: none;
+    text-align: center;
+}
+/*--box CNB et CIR--*/
+ul#accordéon li{
+    background-color: midnightblue;
+    border-radius: 15px;
+    margin-bottom: 5vh;
+    height: 5vh;
+    vertical-align: auto;
+    border: solid 1px white;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+/*--catégories--*/
+ul#accordéon li li{
+    max-height: 0;
+    overflow: hidden;
+    transition: all .5s;
+    color: white;
+    background-color:darkblue;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border-radius: 0;
+    border-right: solid 1px white;
+    border-left: solid 1px white;
+    border-bottom: none;
+    border-top: none;
+    margin: 0;
+}
+
+ul#accordéon li:hover  li{
+    max-height: 5vh ;
+}
+
+ul#accordéon a{
+    display: block;
+    text-decoration: none;
+    padding: 8px;
+    font-size: 1,2em;
+    color: white;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+ul#accordéon li li:hover{
+    background-color: midnightblue;
+}
+
+
+/*--boxe du bas--*/
+ul#accordéon ul li.matiere:last-child {
+    border-radius: 0 0 15px 15px;
+    background-color: midnightblue;
+    border:none;
+    height: 2vh;
+ }
+
+
+/*--sous catégories--*/
+div.child{
+    display: none;
+    position: absolute;
+    width: 9vw;
+    top: 2.5vh;
+    right: -8.9vw;
+}
+ 
+li.matiere:hover div.child{
+    display: inline-block;
+
+}
+
+
+ul.CNB{
+    position: absolute;
+    top: 40vh;
+    left: 20vw;
+
+}
+
+ul.CIR{
+    position: absolute;
+    top: 40vh;
+    right: 20vw ;
+}
+
