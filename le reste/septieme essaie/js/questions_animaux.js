@@ -8,7 +8,7 @@ let questions = [
       "2cm",
       "logan",
       "50cm",
-      "30cm"
+      "1cm"
     ]
   },
     {
