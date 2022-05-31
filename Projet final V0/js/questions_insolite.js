@@ -24,11 +24,7 @@ let questions = [
 },
   {
     type: 1,
-<<<<<<< Updated upstream
   question: " Quel acte de la vie courante occupe eniron 6 mois de notre vie ? ",
-=======
-  question: " Quel acte de la vie courante occupe eniron 6 mois de notre vie? ",
->>>>>>> Stashed changes
   answer: "Attendre à un feu rouge",
   options: [
     "passer le balais",

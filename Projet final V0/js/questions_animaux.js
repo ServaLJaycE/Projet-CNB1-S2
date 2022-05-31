@@ -1,11 +1,7 @@
 // creating an array and passing the number, questions, options, and answers
 let questions = [
     {
-<<<<<<< Updated upstream
     type: 1,
-=======
-      type: 1,
->>>>>>> Stashed changes
     question: "quel est la taille de la langue d'une girafe",
     answer: "50cm",
     options: [
@@ -16,11 +12,7 @@ let questions = [
     ]
   },
     {
-<<<<<<< Updated upstream
     type: 1,
-=======
-      type: 1,
->>>>>>> Stashed changes
     question: " Quel animal cause le plus de morts chaque année ? ",
     answer: "le moustique",
     options: [
@@ -30,7 +22,6 @@ let questions = [
       "le lion "
       ]
   },
-<<<<<<< Updated upstream
     {
     type: 1,
     question: " Combien y’a-t-il d’attaques de requins non provoquées par an ? ",
@@ -40,25 +31,10 @@ let questions = [
       " entre 50 et 100",
       "entre 100 et 150",
       "entre 150 et 200"
-=======
-  {
-    type: 1,  
-  question: " Quel animal cause le plus de morts chaque année ? ",
-  answer: "moustique",
-  options: [
-    "moustique",
-    "le requin",
-    "l'éléphant",
-    "le lion "
->>>>>>> Stashed changes
     ]
 },
     {
-<<<<<<< Updated upstream
     type: 1,
-=======
-      type: 1,
->>>>>>> Stashed changes
     question: "De quelle couleur est la sang de la pieuvre ?",
     answer: " bleu ",
     options: [
@@ -69,11 +45,7 @@ let questions = [
     ]
   },
     {
-<<<<<<< Updated upstream
     type: 1,
-=======
-      type: 1,
->>>>>>> Stashed changes
     question: "Combien de cerveaux possède le poulpe ?",
     answer: "9",
     options: [
