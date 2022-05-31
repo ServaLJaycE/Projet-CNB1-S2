@@ -105,7 +105,7 @@ table.menu td a{
 }
 
 table.menu td a:hover{
-    background-color: rgb(38, 0, 255);
+    /* background-color: rgb(38, 0, 255); */
     border-radius: 15px;
     transform: scale(1.2);
 }
