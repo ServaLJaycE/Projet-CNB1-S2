@@ -54,7 +54,7 @@ ul#Menu li a{
 /* test réparation d'un bug*/
 ul#Menu li a:hover{
     transform: scale(1.2);
-    background-color: rgb(38, 0, 255);
+    /*background-color: rgb(38, 0, 255); */
     border-radius: 15px;
 }
 
