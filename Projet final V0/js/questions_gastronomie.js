@@ -9,19 +9,23 @@ let questions = [
       "De Bretagne",
       "De Lyon",
       "De Lille"
-    ]
+    ],
+    explanation:"Né en 1860 à Douarnenez, le Kouign Amann est un vrai breton. Son nom signifie littéralement Gâteau au Beurre. C'est Yves René Scordia qui mit au point la savoureuse recette du Kouign Amann.",
   },
+
     {
       type: 1,
-    question: " Historiquement, d’où vient la choucroute ?",
+    question: "Historiquement, d’où vient la choucroute ?",
     answer: "De Chine",
     options: [
       "D'Alsace",
       "Des Etats-Unis",
       "De l'Australie",
       "De Chine"
-      ]
+      ],
+    explanation:"D'originaire de Chine, elle a été exportée par les Huns jusqu’en Autriche avant d’atteindre l’Alsace.",
   },
+
     {
       type: 1,
     question: "Qu’est-ce que la daube provençale ?",
@@ -31,12 +35,14 @@ let questions = [
       "Un alcool",
       "Une pâtisserie à  la lavande",
       "Une ratatouille"
-    ]
+    ],
+    explanation:"La daube provençale est une spécialité traditionnelle de la cuisine provençale, à base de viande marinée dans du vin rouge ou du vin blanc du vignoble de Provence, traditionnellement cuite à l'étouffée braisée au coin du feu, dans une daubière en terre cuite provençale.",
   },
+
     {
       type: 1,
-    question: "Lesquel de ces cocktails est à base de rhum ? ",
-    answer: " Mojito ",
+    question: "Lequel de ces cocktails est à base de rhum ? ",
+    answer: "Mojito",
     options: [
       "Mojito",
       "Caïpirinha",
