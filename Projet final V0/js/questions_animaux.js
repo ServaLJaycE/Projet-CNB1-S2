@@ -20,7 +20,8 @@ let questions = [
       "le requin",
       "l'éléphant",
       "le lion "
-      ]
+      ],
+    explanation: "",
   },
     {
     type: 1,
