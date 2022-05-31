@@ -40,7 +40,7 @@ let questions = [
     {
       type: 2,
     question: "Le saut à la perche est l’un des sports d’athlétisme les plus anciens au monde ",
-    answer: " Vrai ",
+    answer: "Vrai",
     options: [
       "Vrai",
       "Faux",
