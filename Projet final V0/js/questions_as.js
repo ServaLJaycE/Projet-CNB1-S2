@@ -62,7 +62,7 @@ let questions = [
   },
 
   {
-    type:1,
+    type:2,
     question:"2.	La pétanque est un sport olympique.",
     answer:"Faux",
     options: [
@@ -72,7 +72,53 @@ let questions = [
     explanation:"La pétanque n'est pas considéré comme une discipline officielle par le Comité international olympique.",
     },
 
-    
+  {
+    type:2,
+    question:"Il existe une déesse de la pétanque appelée Fanny.",
+    answer:"Vrai",
+    options: [
+      "Vrai",
+      "Faux"
+      ],
+      explanation: "Une demoiselle prénommée Fanny, demeurant à Lyon, ayant pris l'habitude de consoler le perdant d'une partie de pétanque en remontant ses jupes. Plus tard, il était d'usage pour le perdant d'une partie d'embrasser Fanny, c'est-à-dire d'embrasser les fesses d'une statue de femme. Les fesses de Fanny sont généralement affichées près du terrain. Si une équipe n'arrive pas à compter un seul point, ils doivent poser un baiser sur l'image.",
+    },
+
+  {
+    type:2,
+    question:"Roger Federer détient le record du plus grand nombre d’as en carrière.",
+    answer:"Faux",
+     options: [
+       "Vrai",
+      "Faux"
+    ],
+    explanation:"En 2015, sur le gazon de Halle, Ivo Karlovic a fait 45 aces à Tomas Berdych : le record du nombre d'aces sur un match d'un tournoi ATP.",
+    },
+
+  {
+    type:2,
+    question:"Le tout premier but de la Coupe du monde a été marqué par un Français.",
+    answer:"Vrai",
+    options: [
+      "Vrai",
+      "Faux"
+    ],
+    explanation:"En 1930, Lucien Laurent marque le premier but de la Coupe du monde. ",
+  },
+
+  {
+    type:1,
+    question:"Qui est le producteur de Charlie et la chocolaterie ?",
+    answer:"Tim Burton",
+    options: [
+      "Michael Bay",
+      "Steven Spielberg",
+      "Luc Besson",
+      "Tim Burton"
+    ],
+    explanation:"Charlie et la chocolaterie est réalisé par Tim Burton en 2005.",
+  },
+
+
 ];
   
   /**
