@@ -39,8 +39,8 @@ let questions = [
 
     {
       type:2,  
-    question: "Moins de la moitié du Japon est recouvert par des montagnes",
-    answer: "Faux",
+    question: "Plus de la moitié du Japon est recouvert par des montagnes",
+    answer: "Vrai",
     options: [
       "Vrai",
       "Faux",
@@ -119,6 +119,18 @@ options: [
   "Nifitini"
 ]
 },
+
+{
+  type:1,
+  question:"Lequel de ses châteaux se situent à Paris",
+  answer:"Le château de Rambouillet",
+  options: [
+    "Le château de Bernicourt",
+    "Le château de Rambouillet",
+    "Le château du Vert-Bois",
+    "Le château de Bouillabesse"
+  ]
+  },
 
 ];
   
