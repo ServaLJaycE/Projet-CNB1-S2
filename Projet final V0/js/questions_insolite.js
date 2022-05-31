@@ -66,7 +66,7 @@ let questions = [
     "Faux"
   ],
   explanation: "Oui il existe, ce n'est juste pas le jour de la fête nationale comme en France",
-  },
+},
 
 {
     type:2,
@@ -89,7 +89,7 @@ let questions = [
         "40 ans",
         "68 ans"
       ]
-      },
+  },
 
 {
   type:1,
@@ -102,7 +102,7 @@ let questions = [
     "La peur de manger des nachos"
   ],
   explanation: "La natalophobie est la phobie de Noël, elle est considéré comme un trouble anxieux",
-        },
+  },
 
 {
 type:1,
