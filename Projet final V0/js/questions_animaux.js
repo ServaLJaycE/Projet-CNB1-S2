@@ -39,12 +39,12 @@ let questions = [
     {
     type: 1,
     question: "De quelle couleur est le sang de la pieuvre ?",
-    answer: " Bleu ",
+    answer: "Bleu",
     options: [
       "Rouge",
       "Vert",
       "Violet",
-      "Bleu "
+      "Bleu"
     ],
     explanation: "Le sang des pieuvres est bleu car il est riche en cuivre.",
   },
@@ -74,7 +74,7 @@ let questions = [
   },
 
   {
-  type: 1,
+  type: 2,
   question:"La température d’incubation des œufs influence la détermination du sexe des reptiles à naître.",
   answer:"Vrai",
   options: [
@@ -85,7 +85,7 @@ let questions = [
   },
 
   {
-  type: 2,
+  type: 1,
   question:"Quelle est la proie favorite des pieuvres ?",
   answer:"Les crabes",
   options: [
@@ -98,7 +98,7 @@ let questions = [
   },
 
   {
-  type: 1,
+  type: 2,
   question:"Les chèvres et les autres ruminants ne digèrent pas leur nourriture d’un coup.",
   answer:"Vrai",
   options: [
@@ -110,7 +110,7 @@ let questions = [
   },
 
   {
-  type:1,
+  type: 2,
   question:"Les ruminants sont dotés de trois estomacs et de pieds à deux doigts.",
   answer:"Faux",
   options: [
@@ -122,7 +122,7 @@ let questions = [
   },
 
   {
-    type:1,
+    type:2,
     question:"Le dromadaire a deux bosses.",
     answer:"Faux",
     options: [
