@@ -27,7 +27,7 @@ let questions = [
     {
     type: 1,
     question: " Combien y’a-t-il d’attaques de requins non provoquées par an ? ",
-    answer: " Entre 50 et 100",
+    answer: "Entre 50 et 100",
     options: [
       "Entre 0 et 50",
       "Entre 50 et 100",
