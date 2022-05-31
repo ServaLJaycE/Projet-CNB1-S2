@@ -78,13 +78,14 @@ ul#Menu li#Culture{
 .boutons{
     background-size: contain;
     background-repeat: no-repeat;
+    height: 100%;
     background-size: 100%;
     background-position: center;
 }
 
 table.menu td{
     width: 30vw;
-    background-color: darkblue;
+    background-color: rgb(38, 0, 255);
     text-align: center;
     border: solid white 1px;
     border-radius: 15px;
@@ -108,7 +109,7 @@ table.menu td a:hover{
    /* background-color: rgb(38, 0, 255); */
     border-radius: 15px;
     transform: scale(1.2);
-    background: "Images/Artsport.jpg";
+    background: "Images/ART ET SPORT.png";
 }
 
 table.menu{
