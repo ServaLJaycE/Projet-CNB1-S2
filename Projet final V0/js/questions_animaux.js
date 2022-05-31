@@ -39,12 +39,12 @@ let questions = [
     {
     type: 1,
     question: "De quelle couleur est le sang de la pieuvre ?",
-    answer: " Bleu ",
+    answer: "Bleu",
     options: [
       "Rouge",
       "Vert",
       "Violet",
-      "Bleu "
+      "Bleu"
     ],
     explanation: "Le sang des pieuvres est bleu car il est riche en cuivre.",
   },

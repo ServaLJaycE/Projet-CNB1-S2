@@ -7,8 +7,10 @@ let questions = [
     options: [
       "Vrai",
       "Faux",
-    ]
+    ],
+    explanation:"La première édition des championnats du monde de pétanque a eut lieu en 1959 à Spa en Belgique",  
   },
+
     {
       type: 1,
     question: " Qui est le plus jeune pilote de F1 à avoir remporté un Grand prix ? ",
@@ -18,8 +20,10 @@ let questions = [
       "Sebastian Vettel",
       "Max Verstappen",
       "Fernando Alonso "
-      ]
+      ],
+    explanation:"Max Verstappen, fils de l'ancien pilote Jos Verstappen, est devenu champion du monde de Formule 1 en 2021",
   },
+
     {
       type: 1,
     question: "Quelle est la durée du plus long match de tennis ?",
@@ -29,8 +33,10 @@ let questions = [
       "10 heures et 35 minutes",
       "11 heures et 5 minutes",
       "12 heures et 20 minutes"
-    ]
+    ],
+    explanation: "En 2010 à Wimbledon, John Isner remporte la victoire face à Nicolas Mahut après un match de 11 heures et 5 minutes.",
   },
+
     {
       type: 2,
     question: "Le saut à la perche est l’un des sports d’athlétisme les plus anciens au monde ",
@@ -38,8 +44,10 @@ let questions = [
     options: [
       "Vrai",
       "Faux",
-    ]
+    ],
+    explanation: "On trouve trace de la technique dans la Grèce antique, où le saut à la perche est utilisé comme moyen de locomotion pour traverser des ruisseaux",
   },
+
     {
       type: 1,
     question: "Dans la série Stranger Things, qui joue le rôle de Onze ?",
@@ -49,8 +57,22 @@ let questions = [
       "Millie Bobby Brown",
       "Natalia Dyer",
       "Sadie Sink"
-    ]
+    ],
+    explanation:"Millie Bobby Brown joue le rôle de Onze dans la série.",
   },
+
+  {
+    type:1,
+    question:"2.	La pétanque est un sport olympique.",
+    answer:"Faux",
+    options: [
+      "Vrai",
+      "Faux"
+    ],
+    explanation:"La pétanque n'est pas considéré comme une discipline officielle par le Comité international olympique.",
+    },
+
+    
 ];
   
   /**
