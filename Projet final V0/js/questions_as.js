@@ -119,6 +119,18 @@ let questions = [
   },
 
 
+  {
+    type:1,
+    question:"12.	Lequel de ces films a été réalisé par Steven Spielberg ",
+    answer:"Ready Player One",
+    options: [
+      "Miss Peregrine",
+      "Ready Player One",
+      "Dumbo",
+      "Titanic"
+    ],
+  },
+
 ];
   
   /**
