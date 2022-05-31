@@ -148,7 +148,7 @@ explanation: "C'est un aliment japonais traditionnel qui se présente sous forme
   question:"Lequel de ces poivres est fait à partir d'un piment ?",
   answer:"Le poivre de Cayenne",
   options: [
-    "Le poibre vert",
+    "Le poivre vert",
     "Le poivre de Cayenne",
     "Le poivre noir",
     "Le poivre rose"
