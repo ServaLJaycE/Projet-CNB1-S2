@@ -69,7 +69,7 @@ let questions = [
   options: [
     'Vrai',
     'Faux'
-  ]
+  ],
     
   },
 

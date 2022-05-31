@@ -253,6 +253,14 @@ section .option_list .option .icon{
     border-color: #a42834;
 }
 
+section .explanation {
+    opacity: 0;
+}
+
+section .explanation.show{
+    opacity: 1;
+}
+
 footer{
     height: 60px;
     padding: 0 30px;
