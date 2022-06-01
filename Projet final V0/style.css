@@ -29,9 +29,9 @@ div.header div.logo a img{
 }
 /*----------------Menu-------------------*/
 body {
-    background-color:rgb(135, 206, 250);
+    background-image: linear-gradient(120deg, rgb(135, 206, 250) 0%, #005eff 100%);
 }
-
+    
 ul#Menu{
     list-style-type: none;
 }
