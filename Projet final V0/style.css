@@ -28,7 +28,6 @@ div.header div.logo a img{
     font-size: larger;
 }
 /*----------------Menu-------------------*/
-
 body {
     background-color:rgb(135, 206, 250);
 }
@@ -78,12 +77,13 @@ ul#Menu li#Culture{
     right: 20%;
 }
 /*--------------Culture G-------------*/
+
 .boutons{
     background-size: contain;
     background-repeat: no-repeat;
     height: 100%;
     background-size: 100%;
-    background-position: center;
+    background-position: center;    
 }
 
 table.menu td{
@@ -93,7 +93,6 @@ table.menu td{
     border: solid white 1px;
     border-radius: 15px;
     table-layout: fixed;
-
 }
 
 table.menu td a{
