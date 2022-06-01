@@ -356,9 +356,13 @@ footer button.show{
     font-weight: 500;
 }
 
-.result_box .score_text span p{
+.result_box .score_points span p{
+    display: flex;
+    text-align: center;
+    margin: 10px 0;
+    font-size: 30px;
     padding: 0 4px;
-    font-weight: 600;
+    font-weight: 800;
 }
 
 .result_box .buttons{

@@ -42,6 +42,7 @@ let userScore = 0;
 let counter;
 let counterLine;
 let widthValue = 0;
+let points = 0;
 
 const restart_quiz = result_box.querySelector(".buttons .restart");
 const quit_quiz = result_box.querySelector(".buttons .quit");
@@ -55,6 +56,7 @@ restart_quiz.onclick = ()=>{
     que_numb = 1;
     userScore = 0;
     widthValue = 0;
+    points = 0;
     showQuestions(que_count); //calling showQestions function
     queCounter(que_numb); //passing que_numb value to queCounter
     clearInterval(counter); //clear counter
@@ -89,7 +91,7 @@ next_btn.onclick = ()=>{
         timeText.textContent = "Time Left"; //change the timeText to Time Left
         next_btn.classList.remove("show"); //hide the next button
         explanation_case.classList.remove("show");//cache le cadre d'explications
-
+        points = 0;
     }else{
         clearInterval(counter); //clear counter
         clearInterval(counterLine); //clear counterLine
@@ -121,7 +123,6 @@ function showQuestions(index){
         que_text.innerHTML = que_tag; //adding new span tag inside que_tag
         option_list.innerHTML = option_tag; //adding new div tag inside option_tag
     }
-
     if (questions[index].explanation == undefined) {
         explanation_case.innerHTML = "";
     }
@@ -142,7 +143,7 @@ let tickIconTag = '<div class="icon tick"><i class="fas fa-check"></i></div>';
 let crossIconTag = '<div class="icon cross"><i class="fas fa-times"></i></div>';
 
 //si utilisateur clique sur la réponse
-function optionSelected(answer){
+function optionSelected(answer,time){
     clearInterval(counter); //clear counter
     clearInterval(counterLine); //clear counterLine
     let userAns = answer.textContent; //getting user selected option
@@ -150,7 +151,7 @@ function optionSelected(answer){
     const allOptions = option_list.children.length; //getting all option items
     
     if(userAns == correcAns){ //si réponse séléctionnée est égale à la bonne réponse
-        userScore += 1; //1 ajout de 1 point au score
+        userScore += points; //1 ajout de 1 point au score
         answer.classList.add("correct"); //bonne réponse coloré en vert
         answer.insertAdjacentHTML("beforeend", tickIconTag); //ajout du tick de bonne réponse séléctionnée
         console.log("Bonne réponse");
@@ -183,6 +184,7 @@ function startTimer(time){
     function timer(){
         timeCount.textContent = time; //changing the value of timeCount with time value
         time--; //decrement the time value
+        points = time;
         if(time < 9){ //if timer is less than 9
             let addZero = timeCount.textContent; 
             timeCount.textContent = "0" + addZero; //add a 0 before time value
@@ -204,8 +206,8 @@ function startTimer(time){
             }
 
             next_btn.classList.add("show"); //show the next button if user selected any option
+            explanation_case.classList.add("show");//cache le cadre d'explications
             
-            explanation_case.classList.add("show");//cache le cadre d'explications 
         }
     }
 }
@@ -214,18 +216,25 @@ function showResult(){
     quiz_box.classList.remove("activeQuiz"); //hide quiz box
     result_box.classList.add("activeResult"); //show result box
     const scoreText = result_box.querySelector(".score_text");
-    if (userScore > 3){ // score utilisateur supérieur à 3
+    const scorepoints = result_box.querySelector(".score_points");
+    if (userScore > 130){ // score utilisateur supérieur à 3
         //creating a new span tag and passing the user score number and total question number
-        let scoreTag = '<span>Bravo! 🎉, tu as obtenu <p>'+ userScore +'</p> sur <p>'+ questions.length +'</p></span>';
-        scoreText.innerHTML = scoreTag;  //adding new span tag inside score_Text
-    }
-    else if(userScore > 1){ // score utilisateur supérieur à 1
-        let scoreTag = '<span>bien joué 😎, tu as obtenu <p>'+ userScore +'</p> sur <p>'+ questions.length +'</p></span>';
+        let scoreTag = '<span>Bravo! 🎉, tu as obtenu un score de</span>';
+        let playerScore = '<span><p>'+ userScore +'</p></span>'//adding new span tag inside score_Text
         scoreText.innerHTML = scoreTag;
+        scorepoints.innerHTML = playerScore;  
+    }
+    else if(userScore > 50){ // score utilisateur supérieur à 1
+        let scoreTag = '<span>Bien joué 😎, tu as obtenu un score de</span>';
+        let playerScore = '<span><p>'+ userScore +'</p></span>'
+        scoreText.innerHTML = scoreTag;
+        scorepoints.innerHTML = playerScore;
     }
     else{ // score utilisateur inférieur à 1
-        let scoreTag = '<span>oups! Dommage 😐, tu as obtenu <p>'+ userScore +'</p> sur <p>'+ questions.length +'</p></span>';
+        let scoreTag = '<span>Oups! Dommage 😐, tu as obtenu un score de</span>';
+        let playerScore = '<span><p>'+ userScore +'</p></span>'
         scoreText.innerHTML = scoreTag;
+        scorepoints.innerHTML = playerScore;
     }
 }
 
