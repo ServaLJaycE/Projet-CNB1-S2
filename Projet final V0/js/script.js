@@ -1,8 +1,9 @@
 //selecting all required elements
 const start_btn = document.querySelector(".start_btn button");
 const info_box = document.querySelector(".info_box");
-const exit_btn = info_box.querySelector(".buttons .quit");
-const continue_btn = info_box.querySelector(".buttons .restart");
+const retour_btn = document.querySelector(".buttons button.retour_btn")
+const exit_btn = document.querySelector(".buttons .quit");
+const continue_btn = document.querySelector(".buttons .restart");
 const quiz_box = document.querySelector(".quiz_box");
 const result_box = document.querySelector(".result_box");
 const option_list = document.querySelector(".option_list");
@@ -12,19 +13,21 @@ const timeCount = document.querySelector(".timer .timer_sec");
 const explanation_case = document.querySelector(".explanation");
 
 
-// startQuiz bouton cliqué
-start_btn.onclick = ()=>{
-    info_box.classList.add("activeInfo"); //show info box
-}
+
 
 // exitQuiz bouton cliqué
 exit_btn.onclick = ()=>{
-    info_box.classList.remove("activeInfo"); //hide info box
+    info_box.classList.remove("disableInfo"); //hide info box
+}
+
+// Retour_btn bouton cliqué
+retour_btn.onclick = ()=>{
+    history.back()
 }
 
 // continueQuiz bouton cliqué
 continue_btn.onclick = ()=>{
-    info_box.classList.remove("activeInfo"); //hide info box
+    info_box.classList.add("disableInfo"); //hide info box
     quiz_box.classList.add("activeQuiz"); //show quiz box
     showQuestions(0); //calling showQestions function
     queCounter(1); //passing 1 parameter to queCounter
@@ -208,7 +211,6 @@ function startTimer(time){
 }
 
 function showResult(){
-    info_box.classList.remove("activeInfo"); //hide info box
     quiz_box.classList.remove("activeQuiz"); //hide quiz box
     result_box.classList.add("activeResult"); //show result box
     const scoreText = result_box.querySelector(".score_text");
