@@ -84,6 +84,9 @@ ul#Menu li#Culture{
     height: 100%;
     background-size: 100%;
     background-position: center; 
+    /*display: flex;
+    align-items: center;
+*/
 }
 
 table.menu td{
