@@ -27,7 +27,20 @@
         <div class="info-list">
             <div class="info">1. vous avez <span>15 seconds</span> pour chaque question</div>
             <div class="info">2. un fois repondu pas de retour en arrière</div>
-             
+
+                    <script type="text/javascript">
+                            function getPhrase(){
+                                var listePhrases = new Array(
+                                    [1],
+                                    [2],
+                                    [3],
+                                    [4]
+                                );
+                                 
+                                document.getElementById("phrase").innerHTML = listePhrases[Math.floor(Math.random() * listePhrases.length)];
+                            }
+                    </script>
+                
         </div>
         <div class="buttons">
             <button class="quit">Exit </button>

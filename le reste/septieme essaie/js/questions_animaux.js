@@ -81,3 +81,14 @@ let questions = [
   }
   
   shuffle(questions);
+
+              function getPhrase(){
+                    var listePhrases = new Array(
+                        [1],
+                        [2],
+                        [3],
+                        [4]
+                    );
+                     
+                    document.getElementById("phrase").innerHTML = listePhrases[Math.floor(Math.random() * listePhrases.length)];
+                }
