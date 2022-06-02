@@ -8,25 +8,11 @@ div.header{
     display: grid;
     grid-template-columns: 15vw 15vw 40vw 15vw 15vw;
     grid-template-rows: 9vh;
-   /* background: linear-gradient(to right,rgb(13, 0, 101), transparent, transparent, rgb(13, 0, 101), transparent, transparent, rgb(13, 0, 101)); */
+   background: linear-gradient(to bottom transparent, rgb(13, 0, 101 )); 
    background-color: transparent;
-    background-size: 101% 100%;
-    animation: anima 2s ease infinite;
+    background-size: 100% 150%;
 
 }
-
-@keyframes anima {
-	0% {
-		background-position: 0% 50%;
-	}
-	50% {
-		background-position: 100% 50%;
-	}
-	100% {
-		background-position: 0% 50%;
-	}
-}
-
 
 div.header a{
     text-decoration: none;
@@ -59,7 +45,7 @@ div.header div.logo a img:hover{
 
 body {
     background-size: 400% 400%;
-    background-image: linear-gradient(45deg, rgb(0, 255, 166), rgb(25, 183, 246), rgb(7, 66, 243), rgb(255, 3, 3)); 
+    background-image: linear-gradient(45deg, rgb(0, 255, 166), rgb(25, 183, 246), rgb(7, 66, 243), rgb(16, 3, 109)); 
     background-attachment: fixed;
     animation: animate 14s ease infinite;
 }
