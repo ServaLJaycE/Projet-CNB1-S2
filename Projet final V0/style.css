@@ -8,7 +8,7 @@ div.header{
     display: grid;
     grid-template-columns: 15vw 15vw 40vw 10vw 10vw 10vw;
     grid-template-rows: 9vh;
-    background: linear-gradient(to bottom,rgb(255, 255, 255), rgb(255, 255, 255), rgb(255, 255, 255), transparent);
+    background: linear-gradient(to bottom,rgb(236, 236, 236), rgb(236, 236, 236), rgb(236, 236, 236), transparent);
     background-size: 100% 100%;
 }
 
