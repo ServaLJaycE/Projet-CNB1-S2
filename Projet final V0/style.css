@@ -10,7 +10,8 @@ div.header{
     grid-template-rows: 9vh;
     background: linear-gradient(to right,rgb(13, 0, 101), transparent, transparent, rgb(13, 0, 101), transparent, transparent, rgb(13, 0, 101));
     background-size: 101% 100%;
-    animation: anima 1.4s ease infinite;
+    animation: anima 2s ease infinite;
+
 }
 
 @keyframes anima {
@@ -24,6 +25,7 @@ div.header{
 		background-position: 0% 50%;
 	}
 }
+
 
 div.header a{
     text-decoration: none;
