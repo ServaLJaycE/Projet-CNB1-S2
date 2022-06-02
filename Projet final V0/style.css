@@ -8,8 +8,8 @@ div.header{
     display: grid;
     grid-template-columns: 15vw 15vw 40vw 15vw 15vw;
     grid-template-rows: 9vh;
-    background-image: url(Images/Animaux.png);
-    background-size: 400% 100%;
+    background-image: url(Images/Head.png);
+    background-size: 110% 100%;
     animation: anima 5s ease infinite;
 }
 
