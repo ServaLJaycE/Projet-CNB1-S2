@@ -35,7 +35,16 @@ div.header a{
 div.header div.logo a img{
     width: auto;
     height: 9vh;
+    transition: 1s;
+    position: relative;
+    left: -6.5vw;
 }
+
+div.header div.logo a img:hover{
+    left:0%
+}
+
+
 
 .header div.quisen {
     text-align: center;
@@ -248,6 +257,11 @@ div.child{
     width: 9vw;
     top: 2.5vh;
     right: -8.9vw;
+    transition: 0.2s;
+}
+
+div.child li a{
+    font-size: 0.8em;
 }
  
 li.matiere:hover div.child{
