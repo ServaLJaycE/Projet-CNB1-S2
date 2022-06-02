@@ -21,7 +21,7 @@ div.header a{
 div.header div.logo a img{
     width: auto;
     height: 9vh;
-    transition: 1s;
+    transition: 10s;
     position: relative;
     left: -6.5vw;
 }
