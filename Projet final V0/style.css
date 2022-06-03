@@ -183,12 +183,16 @@ ul#Menu li#Culture{
 #junia {
     width: 22vh;
     height: 22vh;
-    margin-left: 88%;
-    margin-top: 12%;
+/*    margin-left: 88%;
+    margin-top: 12%;*/
     border-radius: 10px;
     border-style: outset;
     border-width: 1vh 1vh 1vh 1vh;
     border-color: white;
+    position: absolute;
+    bottom: 5px;
+    right: 5px;
+    background-color: white;
 }
 
 #junia:hover {
