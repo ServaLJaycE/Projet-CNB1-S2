@@ -9,7 +9,8 @@ let questions = [
     "D'avoir un oiseau sur lui",
     "D'être dans une volière",
     "De voir un oiseau mort"
-  ]
+  ],
+  explanation: "il ne  doit pas en rigoler..."
 },
 
   {
@@ -54,7 +55,8 @@ let questions = [
     "La marmotte",
     "Le coléoptère",
     "La licorne"
-  ]
+  ],
+  explanation: "elle symbolisait la pureté et l'innocence"
 },
 
 {
@@ -88,7 +90,8 @@ let questions = [
         "2 ans",
         "40 ans",
         "68 ans"
-      ]
+      ],
+      explanation: "Cela représente les deux tiers de sa vie"
   },
 
 {
@@ -113,7 +116,8 @@ options: [
   "La peur de manger des poires",
   "La peur des poulets",
   "La peur de dormir"
-]
+],
+explanation: "Il existe des thérapie pour y remédier, le Thai Chi"
 },
 
 {
