@@ -151,7 +151,7 @@ function optionSelected(answer,time){
     const allOptions = option_list.children.length; //getting all option items
     
     if(userAns == correcAns){ //si réponse séléctionnée est égale à la bonne réponse
-        userScore += points; //1 ajout de 1 point au score
+        userScore += points+1; //1 ajout de 1 point au score
         answer.classList.add("correct"); //bonne réponse coloré en vert
         answer.insertAdjacentHTML("beforeend", tickIconTag); //ajout du tick de bonne réponse séléctionnée
         console.log("Bonne réponse");
