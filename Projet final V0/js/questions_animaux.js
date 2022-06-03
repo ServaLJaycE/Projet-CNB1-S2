@@ -70,7 +70,7 @@ let questions = [
     'Vrai',
     'Faux'
   ],
-    
+    explanation: "Les requins peuvent les sentir tout comme les contractions des muscles"
   },
 
   {

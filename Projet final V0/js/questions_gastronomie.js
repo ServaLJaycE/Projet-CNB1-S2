@@ -48,7 +48,8 @@ let questions = [
       "Caïpirinha",
       "Margarita",
       "Gin tonic"
-    ]
+    ],
+    explanation: "La Caïpirinha est à base de cachaça Aguacana, La Margarita est à base de tequila et le Gin Tonic à base de Gin"
   },
 
     {

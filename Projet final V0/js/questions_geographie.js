@@ -117,7 +117,8 @@ options: [
   "Thymis",
   "Cléopâtre VII",
   "Nifitini"
-]
+],
+explanation: "Elle est connue pour avoir été la compagne de Jules César puis de Marc Antoine"
 },
 
 {
@@ -129,7 +130,8 @@ options: [
     "Le château de Rambouillet",
     "Le château du Vert-Bois",
     "Le château de Bouillabesse"
-  ]
+  ],
+  explanation: "Il se situe dans la ville de Ramouillet"
   },
 
 ];
