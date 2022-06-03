@@ -157,6 +157,11 @@ ul#Menu li#Culture{
     transition: all 0.2s;
 }
 
+.score_box.appear{
+    opacity: 1;
+    pointer-events: auto;
+}
+
 .score_box .info_title{
     height: 60px;
     width: 100%;
@@ -192,10 +197,6 @@ ul#Menu li#Culture{
     margin-bottom: 5px ;
 }
 
-.score_box.appear{
-    opacity: 1;
-    pointer-events: auto;
-}
 
 #junia {
     width: 22vh;
