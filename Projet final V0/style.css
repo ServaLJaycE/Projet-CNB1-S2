@@ -180,6 +180,25 @@ ul#Menu li#Culture{
     pointer-events: auto;
 }
 
+#junia {
+    width: 22vh;
+    height: 22vh;
+    margin-left: 88%;
+    margin-top: 12%;
+    border-radius: 10px;
+    border-style: outset;
+    border-width: 1vh 1vh 1vh 1vh;
+    border-color: white;
+}
+
+#junia:hover {
+    transition: 0.5s;
+    transform: scale(1.05);
+    box-shadow: 1vh 1vh 1vh rgb(3, 0, 105);
+
+}
+
+
 
 /*--------------Culture G-------------*/
 
