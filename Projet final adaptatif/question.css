@@ -26,14 +26,21 @@ body{
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 
                 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
+.start_btn{
+    border-radius: 5px;
+}
 
-.info_box.activeInfo,
+
 .quiz_box.activeQuiz,
 .result_box.activeResult{
     opacity: 1;
     z-index: 5;
     pointer-events: auto;
     transform: translate(-50%, -50%) scale(1);
+}
+
+.info_box.disableInfo{
+    opacity: 0;
 }
 
 .start_btn button{
@@ -48,14 +55,17 @@ body{
     cursor: pointer;
 }
 
+
 .info_box{
     width: 540px;
     background: #fff;
     border-radius: 5px;
     transform: translate(-50%, -50%) scale(0.9);
-    opacity: 0;
-    pointer-events: none;
     transition: all 0.3s ease;
+    z-index: 5;
+    pointer-events: auto;
+    opacity: 1;
+
 }
 
 .info_box .info-title{
@@ -254,11 +264,11 @@ section .option_list .option .icon{
 }
 
 section .explanation {
-    opacity: 0;
+    display: none;
 }
 
 section .explanation.show{
-    opacity: 1;
+    display: block;
 }
 
 footer{
@@ -346,9 +356,13 @@ footer button.show{
     font-weight: 500;
 }
 
-.result_box .score_text span p{
+.result_box .score_points span p{
+    display: flex;
+    text-align: center;
+    margin: 10px 0;
+    font-size: 30px;
     padding: 0 4px;
-    font-weight: 600;
+    font-weight: 800;
 }
 
 .result_box .buttons{
@@ -384,7 +398,7 @@ footer button.show{
     background: #fff;
 }
 
-.buttons button.quit:hover{
+.buttons button.quit:hover, .retour_btn:hover{
     color: #fff;
     background: #007bff;
 }
