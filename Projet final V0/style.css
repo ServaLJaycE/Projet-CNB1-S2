@@ -8,7 +8,7 @@ div.header{
     display: grid;
     grid-template-columns: 15vw 15vw 40vw 10vw 10vw 10vw;
     grid-template-rows: 9vh;
-    background: linear-gradient(to bottom,rgb(236, 236, 236), rgb(236, 236, 236), rgb(236, 236, 236), transparent);
+/*    background: linear-gradient(to bottom,rgb(236, 236, 236), rgb(236, 236, 236), rgb(236, 236, 236), transparent);*/
     background-size: 100% 100%;
 }
 
@@ -48,9 +48,10 @@ div.header a{
 
 .header div.quisen {
     text-align: center;
-    font-weight: bold;
-    font-family: 'miltonian';
-    font-size: larger;
+    font-weight: 600;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
+    font-size: 2em;
+
 }
 
 
@@ -165,6 +166,21 @@ ul#Menu li#Culture{
     font-weight: 600;
 }
 
+.score_box .quit_btn{
+    position:fixed;
+    width: 3vw;
+    left: 65%;
+    top: 10%;
+    border-radius: 100%;
+}
+
+.score_box .quit_btn i{
+    color: rgb(160, 30, 30);
+    font-size: 30px;
+    width: 3vw;
+}
+
+
 .score_box .score_text{
     height: 100px;
     padding: 20px 10px;
@@ -183,8 +199,6 @@ ul#Menu li#Culture{
 #junia {
     width: 22vh;
     height: 22vh;
-/*    margin-left: 88%;
-    margin-top: 12%;*/
     border-radius: 10px;
     border-style: outset;
     border-width: 1vh 1vh 1vh 1vh;
@@ -201,7 +215,6 @@ ul#Menu li#Culture{
     box-shadow: 1vh 1vh 1vh rgb(3, 0, 105);
 
 }
-
 
 
 /*--------------Culture G-------------*/
