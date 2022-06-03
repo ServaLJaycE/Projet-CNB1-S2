@@ -8,14 +8,16 @@ trophee.onclick = ()=>{
     score_box.classList.add("appear");
 } 
 
+
+//Croix cliquée
+quit_btn.onclick = () =>{
+    score_box.classList.remove("appear");
+}
+
+
 //junia cliqué 
 junia.onclick = ()=>{
     if ( confirm("Ceci va vous renvoyer vers le site JUNIA-Isen")){
         window.open("https://www.isen-lille.fr/formations/ecole-dingenieur-numerique-en-alternance/")
     }
-}
-
-//Croix cliquée
-quit_btn.onclick = () =>{
-    score_box.classList.remove("appear");
 }
