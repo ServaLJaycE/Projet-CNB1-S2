@@ -12,7 +12,4 @@ junia.onclick = ()=>{
     if ( confirm("Ceci va vous renvoyer vers le site JUNIA-Isen")){
         window.open("https://www.isen-lille.fr/formations/ecole-dingenieur-numerique-en-alternance/")
     }
-    else{
-    
-    }
 }
