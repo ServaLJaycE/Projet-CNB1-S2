@@ -96,7 +96,7 @@ let questions = [
 
   {
     type:2,
-    question:"Le tout premier but de la Coupe du monde a été marqué par un Français.",
+    question:"Le tout premier but de la Coupe du monde a été marqué par un français.",
     answer:"Vrai",
     options: [
       "Vrai",

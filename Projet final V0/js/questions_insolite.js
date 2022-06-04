@@ -10,7 +10,7 @@ let questions = [
     "D'être dans une volière",
     "De voir un oiseau mort"
   ],
-  explanation: "il ne  doit pas en rigoler..."
+  explanation: "Il ne  doit pas en rigoler..."
 },
 
   {
@@ -56,7 +56,7 @@ let questions = [
     "Le coléoptère",
     "La licorne"
   ],
-  explanation: "elle symbolisait la pureté et l'innocence"
+  explanation: "Elle symbolisait la pureté et l'innocence."
 },
 
 {
@@ -117,7 +117,7 @@ options: [
   "La peur des poulets",
   "La peur de dormir"
 ],
-explanation: "Il existe des thérapie pour y remédier, le Thai Chi"
+explanation: "Il existe des thérapie pour y remédier, le Tai Chi"
 },
 
 {
