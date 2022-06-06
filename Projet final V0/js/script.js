@@ -1,5 +1,4 @@
 //selecting all required elements
-const start_btn = document.querySelector(".start_btn button");
 const info_box = document.querySelector(".info_box");
 const retour_btn = document.querySelector(".buttons button.retour_btn")
 const exit_btn = document.querySelector(".buttons .quit");
