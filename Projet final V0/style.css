@@ -25,6 +25,7 @@ div.header a{
     width: auto;
 }
 
+
 .header .logo{
     position: relative;
     left: -7vw;
@@ -50,7 +51,6 @@ div.header a{
     font-weight: 600;
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
     font-size: 2em;
-
 }
 
 
