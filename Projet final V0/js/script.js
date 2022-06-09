@@ -36,6 +36,7 @@ continue_btn.onclick = ()=>{
 
 let timeValue =  15;
 let que_count = 0;
+let que_nb = 2;
 let que_numb = 1;
 let userScore = 0;
 let counter;
@@ -78,7 +79,7 @@ const bottom_ques_counter = document.querySelector("footer .total_que");
 
 // Next Que bouton cliqué
 next_btn.onclick = ()=>{
-    if(que_count < 9){ //if question count is less than total question length
+    if(que_count < que_nb){ //if question count is less than total question length
         que_count++; //increment the que_count value
         que_numb++; //increment the que_numb value
         showQuestions(que_count); //calling showQestions function
@@ -249,8 +250,9 @@ function startTimerLine(time){
     }
 }
 
+let numb = que_nb+1;
 function queCounter(index){
     //creating a new span tag and passing the question number and total question
-    let totalQueCounTag = '<span><p>Question <p>'+ index +'<p> sur 10 </p></span>';
+    let totalQueCounTag = '<span><p>Question <p>'+ index +'<p> sur </p>' + numb +'</span>';
     bottom_ques_counter.innerHTML = totalQueCounTag;  //adding new span tag inside bottom_ques_counter
 }
